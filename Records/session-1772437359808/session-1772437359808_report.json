@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T02:42:40.510433",
+    "session_id": "session-1772437359808",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {
+      "speed": {
+        "average": 0.4174320842124175,
+        "maximum": 2.2745573439926967,
+        "variance": 0.12328943450190892
+      },
+      "acceleration": {
+        "average": 0.03372063493772576,
+        "maximum": 0.287272622109348,
+        "variance": 0.002458786866018846
+      },
+      "timing": {
+        "total_drawing_time_ms": 6364.0,
+        "total_pause_time_ms": 849.0,
+        "strokes": 2,
+        "points": 558
+      },
+      "pauses": {
+        "count": 1,
+        "average_duration_ms": 849.0,
+        "maximum_duration_ms": 849.0
+      },
+      "rhythm": {
+        "avg_inter_stroke_interval_ms": 849.0,
+        "stroke_frequency_per_sec": 0.12242149721491094
+      },
+      "movement": {
+        "direction_changes": 98,
+        "average_curvature": 0.2215986393400549,
+        "maximum_curvature": 3.141592653589793
+      }
+    },
+    "static": {
+      "bounding_box": {
+        "area": 122445.0,
+        "width": 453.5,
+        "height": 270.0,
+        "center": {
+          "x": 411.25,
+          "y": 250.5
+        }
+      },
+      "strokes": {
+        "count": 2,
+        "average_length": 874.9553623464817,
+        "total_length": 1749.9107246929634
+      },
+      "shape": {
+        "compactness": 0.06998244109600228,
+        "solidity": 0.08981238863850749,
+        "symmetry_x": 0.04174609961067871,
+        "symmetry_y": 0.037956194183359306,
+        "hu_moments": [
+          0.011333675438697715,
+          2.7099472281587827e-05,
+          5.6225753809260486e-08,
+          2.2968279423329356e-08,
+          8.182902052196125e-16,
+          1.1861736109237368e-10,
+          -1.0804329129252473e-16
+        ]
+      },
+      "density": {
+        "stroke_density": 1.633386418391931e-05,
+        "point_density": 0.0045571481073134875
+      }
+    }
+  },
+  "analysis": {
+    "combined": {
+      "feature_sets": {
+        "dynamic_count": 18,
+        "static_count": 15
+      },
+      "total_metrics_extracted": 33,
+      "analysis": {
+        "drawing_efficiency": 97.99,
+        "shape_quality": 5.49,
+        "overall_assessment": {
+          "score": 42.49,
+          "max_score": 100,
+          "efficiency_component": 97.99,
+          "quality_component": 5.49,
+          "grade": "F"
+        }
+      }
+    },
+    "assessment": {
+      "drawing_efficiency": 97.99,
+      "shape_quality": 5.49,
+      "overall_assessment": {
+        "score": 42.49,
+        "max_score": 100,
+        "efficiency_component": 97.99,
+        "quality_component": 5.49,
+        "grade": "F"
+      }
+    }
+  },
+  "summary": {
+    "total_errors": 0,
+    "is_complete": true,
+    "metrics_extracted": 33
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 35.7,
+    "cognitive_load_score": 17.6,
+    "overall_wellness": 82.3,
+    "wellness_level": "Excellent",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Maintain current pace - doing well!",
+      "Continue regular practice sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.12,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 97.99,
+      "quality_level": 5.49,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 0.76,
+      "completion_status": 1.0,
+      "error_count": 0.0
+    }
+  }
+}

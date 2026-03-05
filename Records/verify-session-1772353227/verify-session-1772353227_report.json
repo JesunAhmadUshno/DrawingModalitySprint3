@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T02:40:28.075344",
+    "session_id": "verify-session-1772353227",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {
+      "speed": {
+        "average": 0.5939641729601164,
+        "maximum": 0.7810249675906654,
+        "variance": 0.030539894573138254
+      },
+      "acceleration": {
+        "average": 0.002805911919458235,
+        "maximum": 0.004204698400442665,
+        "variance": 7.873141699757797e-06
+      },
+      "timing": {
+        "total_drawing_time_ms": 300.0,
+        "total_pause_time_ms": 0,
+        "strokes": 1,
+        "points": 4
+      },
+      "pauses": {
+        "count": 0,
+        "average_duration_ms": 0,
+        "maximum_duration_ms": 0
+      },
+      "rhythm": {
+        "avg_inter_stroke_interval_ms": 0,
+        "stroke_frequency_per_sec": 0
+      },
+      "movement": {
+        "direction_changes": 0,
+        "average_curvature": 0.003939696866662565,
+        "maximum_curvature": 0.005046609489385681
+      }
+    },
+    "static": {
+      "bounding_box": {
+        "area": 15600,
+        "width": 130.0,
+        "height": 120.0,
+        "center": {
+          "x": 165.0,
+          "y": 160.0
+        }
+      },
+      "strokes": {
+        "count": 1,
+        "average_length": 178.1892518880349,
+        "total_length": 178.1892518880349
+      },
+      "shape": {
+        "compactness": 0.05673076923076923,
+        "solidity": 0.9833333333333333,
+        "symmetry_x": -0.0015151126062505917,
+        "symmetry_y": -0.0015151126062504187,
+        "hu_moments": [
+          0.01256082401643667,
+          0.00015637137595716786,
+          3.1383131393056985e-09,
+          1.6434598982925263e-09,
+          3.650003452825624e-18,
+          1.5840190690530708e-11,
+          -7.798693956674296e-19
+        ]
+      },
+      "density": {
+        "stroke_density": 6.41025641025641e-05,
+        "point_density": 0.0002564102564102564
+      }
+    }
+  },
+  "completion": {
+    "error": "Could not find reference image for task: Verification Task",
+    "completion_percentage": 0,
+    "task_title": "Verification Task",
+    "task_id": 1,
+    "is_multi_task": true,
+    "attempted_mapping": true
+  },
+  "analysis": {
+    "combined": {
+      "feature_sets": {
+        "dynamic_count": 18,
+        "static_count": 15
+      },
+      "total_metrics_extracted": 33,
+      "analysis": {
+        "drawing_efficiency": 100.0,
+        "shape_quality": 2.91,
+        "task_completion": 0,
+        "overall_assessment": {
+          "score": 41.75,
+          "max_score": 100,
+          "efficiency_component": 100.0,
+          "quality_component": 2.91,
+          "grade": "F",
+          "scoring_method": "legacy"
+        }
+      }
+    },
+    "assessment": {
+      "drawing_efficiency": 100.0,
+      "shape_quality": 2.91,
+      "task_completion": 0,
+      "overall_assessment": {
+        "score": 41.75,
+        "max_score": 100,
+        "efficiency_component": 100.0,
+        "quality_component": 2.91,
+        "grade": "F",
+        "scoring_method": "legacy"
+      }
+    }
+  },
+  "summary": {
+    "total_errors": 0,
+    "is_complete": true,
+    "metrics_extracted": 33
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 39.1,
+    "cognitive_load_score": 19.9,
+    "overall_wellness": 80.9,
+    "wellness_level": "Excellent",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Maintain current pace - doing well!",
+      "Continue regular practice sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.0,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 100.0,
+      "quality_level": 2.91,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 0.99,
+      "completion_status": 1.0,
+      "error_count": 0.0
+    }
+  }
+}

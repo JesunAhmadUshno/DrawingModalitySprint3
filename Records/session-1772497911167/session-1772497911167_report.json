@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T19:31:51.948541",
+    "session_id": "session-1772497911167",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {
+      "speed": {
+        "average": 0.21938935010269503,
+        "maximum": 1.0151907431108496,
+        "variance": 0.031183669255763838
+      },
+      "acceleration": {
+        "average": 0.014330540823658987,
+        "maximum": 0.1287452360777266,
+        "variance": 0.0004360310766897588
+      },
+      "timing": {
+        "total_drawing_time_ms": 9998.0,
+        "total_pause_time_ms": 935.0,
+        "strokes": 2,
+        "points": 786
+      },
+      "pauses": {
+        "count": 1,
+        "average_duration_ms": 935.0,
+        "maximum_duration_ms": 935.0
+      },
+      "rhythm": {
+        "avg_inter_stroke_interval_ms": 935.0,
+        "stroke_frequency_per_sec": 0.03410117819570666
+      },
+      "movement": {
+        "direction_changes": 230,
+        "average_curvature": 0.47504273450976353,
+        "maximum_curvature": 6.283185307179586
+      }
+    },
+    "static": {
+      "bounding_box": {
+        "area": 71557.5,
+        "width": 329.0,
+        "height": 217.5,
+        "center": {
+          "x": 378.5,
+          "y": 266.25
+        }
+      },
+      "strokes": {
+        "count": 2,
+        "average_length": 664.1778227218398,
+        "total_length": 1328.3556454436796
+      },
+      "shape": {
+        "compactness": 0.08739824616567096,
+        "solidity": 0.11616114712383217,
+        "symmetry_x": 0.0632183747547875,
+        "symmetry_y": 0.04640931867723101,
+        "hu_moments": [
+          0.008541338786464516,
+          9.521320681063898e-06,
+          1.6375638998927462e-08,
+          1.799671455781209e-09,
+          -9.457813623048833e-18,
+          5.54450364874566e-12,
+          2.4495311544708943e-18
+        ]
+      },
+      "density": {
+        "stroke_density": 2.7949551060336095e-05,
+        "point_density": 0.010984173566712085
+      }
+    }
+  },
+  "completion": {
+    "error": "No reference image specified",
+    "completion_percentage": 0
+  },
+  "analysis": {
+    "combined": {
+      "feature_sets": {
+        "dynamic_count": 18,
+        "static_count": 15
+      },
+      "total_metrics_extracted": 33,
+      "analysis": {
+        "drawing_efficiency": 98.0,
+        "shape_quality": 7.11,
+        "task_completion": 0,
+        "overall_assessment": {
+          "score": 21.73,
+          "max_score": 100,
+          "completion_component": 0,
+          "efficiency_component": 98.0,
+          "quality_component": 7.11,
+          "grade": "F",
+          "completion_breakdown": {
+            "ssim_score": 0,
+            "orb_matches": 0,
+            "contour_similarity": 0,
+            "sift_matches": 0
+          }
+        }
+      }
+    },
+    "assessment": {
+      "drawing_efficiency": 98.0,
+      "shape_quality": 7.11,
+      "task_completion": 0,
+      "overall_assessment": {
+        "score": 21.73,
+        "max_score": 100,
+        "completion_component": 0,
+        "efficiency_component": 98.0,
+        "quality_component": 7.11,
+        "grade": "F",
+        "completion_breakdown": {
+          "ssim_score": 0,
+          "orb_matches": 0,
+          "contour_similarity": 0,
+          "sift_matches": 0
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_errors": 0,
+    "is_complete": true,
+    "metrics_extracted": 33
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 33.5,
+    "cognitive_load_score": 16.4,
+    "overall_wellness": 83.2,
+    "wellness_level": "Excellent",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Maintain current pace - doing well!",
+      "Continue regular practice sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.09,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 98.0,
+      "quality_level": 7.11,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 0.64,
+      "completion_status": 1.0,
+      "error_count": 0.0
+    }
+  }
+}

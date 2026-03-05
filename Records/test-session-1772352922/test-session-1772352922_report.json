@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T02:40:28.029390",
+    "session_id": "test-session-1772352922",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": false,
+      "errors": [
+        "Stroke 0: Missing strokeId"
+      ],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {},
+    "static": {}
+  },
+  "completion": {},
+  "analysis": {
+    "combined": {},
+    "assessment": {}
+  },
+  "summary": {
+    "total_errors": 1,
+    "is_complete": false,
+    "metrics_extracted": 0
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 55.0,
+    "cognitive_load_score": 35.0,
+    "overall_wellness": 73.1,
+    "wellness_level": "Good",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Ensure adequate rest between sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.0,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 50,
+      "quality_level": 50,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 1.0,
+      "completion_status": 0.5,
+      "error_count": 0.2
+    }
+  }
+}

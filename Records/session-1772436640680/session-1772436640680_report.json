@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T02:40:28.022328",
+    "session_id": "session-1772436640680",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {
+      "speed": {
+        "average": 0.3709701759102225,
+        "maximum": 2.5706078447242833,
+        "variance": 0.10353547101239807
+      },
+      "acceleration": {
+        "average": 0.02815405641412946,
+        "maximum": 0.34375,
+        "variance": 0.001944101834349444
+      },
+      "timing": {
+        "total_drawing_time_ms": 25034.0,
+        "total_pause_time_ms": 12590.0,
+        "strokes": 10,
+        "points": 2038
+      },
+      "pauses": {
+        "count": 9,
+        "average_duration_ms": 1398.888888888889,
+        "maximum_duration_ms": 5925.0
+      },
+      "rhythm": {
+        "avg_inter_stroke_interval_ms": 1398.888888888889,
+        "stroke_frequency_per_sec": 0
+      },
+      "movement": {
+        "direction_changes": 296,
+        "average_curvature": 0.20884986272091216,
+        "maximum_curvature": 6.283185307179586
+      }
+    },
+    "static": {
+      "bounding_box": {
+        "area": 182305.25,
+        "width": 485.5,
+        "height": 375.5,
+        "center": {
+          "x": 431.75,
+          "y": 215.75
+        }
+      },
+      "strokes": {
+        "count": 10,
+        "average_length": 566.7661505385901,
+        "total_length": 5667.6615053859
+      },
+      "shape": {
+        "compactness": 0.14602431910216518,
+        "solidity": 0.17765750494679483,
+        "symmetry_x": 0.21466644102567586,
+        "symmetry_y": 0.04473056993311241,
+        "hu_moments": [
+          0.004464387532219094,
+          1.0519991893332145e-06,
+          5.158984545724514e-10,
+          2.0944723583311656e-10,
+          -8.557116172487131e-22,
+          -1.438337539303776e-13,
+          6.8843115499085e-20
+        ]
+      },
+      "density": {
+        "stroke_density": 5.485305552089147e-05,
+        "point_density": 0.011179052715157681
+      }
+    }
+  },
+  "completion": {
+    "task_title": "Two-Pentagon Copy",
+    "task_id": 1,
+    "reference_image": "test_data/paired_sets/task1_reference-copy/reference_two-pentagon.png",
+    "reference_path_used": "test_data\\paired_sets\\task1_reference-copy\\reference_two-pentagon.png",
+    "is_multi_task": true,
+    "auto_mapped": true,
+    "ssim_score": 0.9662107147372925,
+    "orb_matches": 0,
+    "orb_score_norm": 0.0,
+    "contour_distance": null,
+    "contour_similarity": 0.0,
+    "sift_matches": 0,
+    "sift_score_norm": 0.0,
+    "completion_percentage": 4.831053573686463,
+    "weights": {
+      "ssim": 0.05,
+      "orb": 0.45,
+      "contour": 0.35,
+      "sift": 0.15
+    }
+  },
+  "analysis": {
+    "combined": {
+      "feature_sets": {
+        "dynamic_count": 18,
+        "static_count": 15
+      },
+      "total_metrics_extracted": 33,
+      "analysis": {
+        "drawing_efficiency": 81.99,
+        "shape_quality": 13.79,
+        "task_completion": 4.831053573686463,
+        "overall_assessment": {
+          "score": 22.95,
+          "max_score": 100,
+          "completion_component": 4.83,
+          "efficiency_component": 81.99,
+          "quality_component": 13.79,
+          "grade": "F",
+          "scoring_method": "completion_based",
+          "completion_breakdown": {
+            "ssim_score": 0.9662107147372925,
+            "orb_matches": 0,
+            "contour_similarity": 0.0,
+            "sift_matches": 0
+          }
+        }
+      }
+    },
+    "assessment": {
+      "drawing_efficiency": 81.99,
+      "shape_quality": 13.79,
+      "task_completion": 4.831053573686463,
+      "overall_assessment": {
+        "score": 22.95,
+        "max_score": 100,
+        "completion_component": 4.83,
+        "efficiency_component": 81.99,
+        "quality_component": 13.79,
+        "grade": "F",
+        "scoring_method": "completion_based",
+        "completion_breakdown": {
+          "ssim_score": 0.9662107147372925,
+          "orb_matches": 0,
+          "contour_similarity": 0.0,
+          "sift_matches": 0
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_errors": 0,
+    "is_complete": true,
+    "metrics_extracted": 33
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 27.9,
+    "cognitive_load_score": 10.0,
+    "overall_wellness": 86.2,
+    "wellness_level": "Excellent",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Maintain current pace - doing well!",
+      "Continue regular practice sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.33,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 81.99,
+      "quality_level": 13.79,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 0.0,
+      "completion_status": 1.0,
+      "error_count": 0.0
+    }
+  }
+}

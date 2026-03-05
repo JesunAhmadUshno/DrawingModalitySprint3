@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Reports - PulseKey</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --bg-tertiary: #0f3460;
+            --accent-primary: #667eea;
+            --accent-secondary: #764ba2;
+            --success: #4CAF50;
+            --warning: #FF9800;
+            --danger: #f5576c;
+            --border: #2a2a4a;
+            --text-primary: #ffffff;
+            --text-secondary: #b0b0b0;
+            --text-tertiary: #888888;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== HEADER ===== */
+        .header-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: linear-gradient(180deg, var(--bg-primary) 0%, rgba(26, 26, 46, 0.95) 100%);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+            transition: all 0.3s ease;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .nav-button:hover {
+            background: linear-gradient(135deg, #3a3a5a 0%, #2f2f4a 100%);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .page-title {
+            font-size: 32px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .stat-badge {
+            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .action-btn {
+            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+            border: none;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+
+        /* ===== FILTER SECTION ===== */
+        .filter-section {
+            background: rgba(26, 26, 46, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+
+        .filter-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 14px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            margin-bottom: 14px;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-tertiary);
+        }
+
+        .controls-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 12px;
+        }
+
+        .control-select {
+            padding: 12px 14px;
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .control-select:hover {
+            border-color: var(--accent-primary);
+        }
+
+        .control-select:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+        }
+
+        /* ===== SESSIONS GRID ===== */
+        .sessions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .session-card {
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .session-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .session-card:hover {
+            border-color: var(--accent-primary);
+            transform: translateY(-6px);
+            box-shadow: 0 12px 32px rgba(102, 126, 234, 0.2);
+        }
+
+        .session-card:hover::before {
+            opacity: 1;
+        }
+
+        .session-id {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent-primary);
+            word-break: break-all;
+            margin-bottom: 8px;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+
+        .session-datetime {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        /* ===== SCORE SECTION ===== */
+        .score-section {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 14px;
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 12px;
+        }
+
+        .score-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .score-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .score-grade {
+            font-size: 56px;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -2px;
+            margin-bottom: 6px;
+        }
+
+        .score-grade.grade-a {
+            color: #4CAF50;
+            text-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+        }
+
+        .score-grade.grade-b {
+            color: #8BC34A;
+            text-shadow: 0 0 20px rgba(139, 195, 74, 0.4);
+        }
+
+        .score-grade.grade-c {
+            color: #FFB74D;
+            text-shadow: 0 0 20px rgba(255, 183, 77, 0.4);
+        }
+
+        .score-grade.grade-d {
+            color: #FF9800;
+            text-shadow: 0 0 20px rgba(255, 152, 0, 0.4);
+        }
+
+        .score-grade.grade-f {
+            color: #f5576c;
+            text-shadow: 0 0 20px rgba(245, 87, 108, 0.4);
+        }
+
+        .score-numeric {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-secondary);
+        }
+
+        .score-components {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .component-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .component-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .component-bar-bg {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+            height: 7px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .component-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .bar-efficiency {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .bar-quality {
+            background: linear-gradient(90deg, #21c7a8 0%, #5dff6c 100%);
+        }
+
+        /* ===== SESSION META ===== */
+        .session-meta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .meta-pill {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            transition: all 0.2s ease;
+        }
+
+        .meta-pill.ok {
+            border-color: rgba(76, 175, 80, 0.3);
+            color: #7ec889;
+        }
+
+        .meta-pill.warn {
+            border-color: rgba(255, 183, 77, 0.3);
+            color: #ffd08a;
+        }
+
+        .meta-pill.bad {
+            border-color: rgba(245, 87, 108, 0.3);
+            color: #ff8fa3;
+        }
+
+        /* ===== SESSION DETAILS ===== */
+        .session-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .detail-item {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .detail-label {
+            font-size: 10px;
+            color: var(--text-tertiary);
+            margin-bottom: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .detail-value {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        /* ===== SESSION ACTIONS ===== */
+        .session-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .action-button {
+            padding: 10px 12px;
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .action-button:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            background: linear-gradient(135deg, #3a3a5a 0%, #2f2f4a 100%);
+            transform: translateY(-2px);
+        }
+
+        /* ===== EMPTY STATE ===== */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .empty-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .empty-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+
+        .empty-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .empty-button {
+            background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+            border: none;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .empty-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+        }
+
+        /* ===== LOADING STATE ===== */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 44px;
+            height: 44px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 15px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* ===== MODAL ===== */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 1350px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            border: 1px solid var(--border);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 28px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .modal-close:hover {
+            color: var(--accent-primary);
+            transform: rotate(90deg);
+        }
+
+        .modal-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ===== MODAL TABS ===== */
+        .modal-tabs {
+            display: flex;
+            gap: 12px;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .modal-tab-btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            padding: 12px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .modal-tab-btn:hover {
+            color: var(--accent-primary);
+        }
+
+        .modal-tab-btn.active {
+            color: var(--accent-primary);
+            border-bottom-color: var(--accent-primary);
+        }
+
+        .modal-content-wrapper {
+            position: relative;
+        }
+
+        .modal-tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-tab-content.active {
+            display: block;
+        }
+
+        /* ===== CHART GRID ===== */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chart-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .chart-box:hover {
+            border-color: var(--accent-primary);
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+        }
+
+        .chart-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ===== DASHBOARD CARDS ===== */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .dashboard-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .dashboard-card:hover {
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .dashboard-card .k {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-bottom: 6px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .dashboard-card .v {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-primary);
+            word-break: break-word;
+        }
+
+        /* ===== SECTIONS ===== */
+        .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 24px 0 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            height: 2px;
+            width: 60px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        }
+
+        /* ===== CHARTS ===== */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        .chart-box {
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .chart-title {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .chart-box canvas {
+            max-height: 280px;
+        }
+
+        /* ===== TABLES ===== */
+        .tables-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .tables-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .metric-table-wrap {
+            background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .metric-table-title {
+            background: linear-gradient(135deg, #3a3a5a 0%, #2f2f4a 100%);
+            color: var(--text-primary);
+            padding: 10px 12px;
+            font-size: 12px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .metric-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        .metric-table td {
+            border-top: 1px solid var(--border);
+            padding: 8px 10px;
+            vertical-align: top;
+        }
+
+        .metric-table td:first-child {
+            color: var(--text-tertiary);
+            width: 55%;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 11px;
+        }
+
+        .metric-table td:last-child {
+            color: var(--text-secondary);
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        /* ===== DOWNLOAD BUTTON ===== */
+        .download-button {
+            margin-top: 20px;
+            background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.2s ease;
+        }
+
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(76, 175, 80, 0.3);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .sessions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .controls-row {
+                grid-template-columns: 1fr;
+            }
+
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .header-left,
+            .header-right {
+                width: 100%;
+            }
+
+            .page-title {
+                font-size: 24px;
+            }
+
+            .session-details,
+            .session-meta,
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .modal-content {
+                padding: 20px;
+                max-width: 95%;
+            }
+
+            .score-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ===== SCROLLBAR ===== */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="header-sticky">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <button class="nav-button" onclick="window.history.back()" title="Go Back">←</button>
+                    <button class="nav-button" onclick="window.location.href='index.html'" title="Home">🏠</button>
+                    <h1 class="page-title">Assessment Reports</h1>
+                </div>
+                <div class="header-right">
+                    <div class="stat-badge" id="sessionBadge">0 sessions</div>
+                    <button class="action-btn" onclick="loadSessions()" title="Refresh data">🔄 Refresh</button>
+                    <button class="action-btn" onclick="window.location.href='analytics-dashboard.html'" title="View analytics">📊 Analytics</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 30px;">
+        <!-- FILTER SECTION -->
+        <div class="filter-section">
+            <div class="filter-title">🔍 Search & Filter</div>
+            <input 
+                type="text" 
+                class="search-input" 
+                id="searchInput" 
+                placeholder="Search by session ID, grade, or date..."
+                title="Type to search sessions"
+            >
+            <div class="controls-row">
+                <select class="control-select" id="sortSelect" title="Sort sessions">
+                    <option value="new_old">📅 Newest First</option>
+                    <option value="old_new">📅 Oldest First</option>
+                    <option value="id_asc">📝 ID A → Z</option>
+                    <option value="id_desc">📝 ID Z → A</option>
+                    <option value="time_asc">⏰ Time Ascending</option>
+                    <option value="time_desc">⏰ Time Descending</option>
+                </select>
+
+                <select class="control-select" id="statusSelect" title="Filter by completion status">
+                    <option value="all">✓ All Sessions</option>
+                    <option value="complete">✓ Complete Only</option>
+                    <option value="errors">⚠ With Errors</option>
+                </select>
+
+                <select class="control-select" id="validitySelect" title="Filter by data validation">
+                    <option value="all">✓ All Validations</option>
+                    <option value="both_valid">✓✓ Both Valid</option>
+                    <option value="dynamic_invalid">✗ Dynamic Invalid</option>
+                    <option value="static_invalid">✗ Static Invalid</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- LOADING STATE -->
+        <div id="loadingContainer" class="loading">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading assessments...</div>
+        </div>
+
+        <!-- SESSIONS GRID -->
+        <div id="sessionsContainer" class="sessions-grid"></div>
+
+        <!-- EMPTY STATE -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <div class="empty-icon">📭</div>
+            <div class="empty-title">No Assessments Yet</div>
+            <div class="empty-text">Complete a drawing assessment to see results here</div>
+            <button class="empty-button" onclick="window.location.href='index.html'">Start Assessment</button>
+        </div>
+    </div>
+
+    <!-- REPORT MODAL -->
+    <div class="modal" id="reportModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeReportModal()" title="Close">×</button>
+            <div class="modal-title">📊 Detailed Assessment Report</div>
+            <div id="reportContent"></div>
+            <button class="download-button" onclick="downloadCurrentReport()">⬇️ Download Full Report (JSON)</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const API_BASE = 'http://localhost:5000';
+        let allSessions = [];
+        let currentSessionForDownload = null;
+        let dashboardCharts = [];
+
+        // ===== UTILITY FUNCTIONS =====
+        function formatDuration(ms) {
+            const totalSeconds = Math.floor((ms || 0) / 1000);
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${minutes}m ${seconds}s`;
+        }
+
+        function getGradeColor(grade) {
+            if (!grade) return '#999999';
+            const g = String(grade).toUpperCase()[0];
+            const colors = {
+                'A': '#4CAF50',   // Green
+                'B': '#8BC34A',   // Light Green
+                'C': '#FFB74D',   // Orange
+                'D': '#FF9800',   // Dark Orange
+                'F': '#f5576c'    // Pink/Red
+            };
+            return colors[g] || '#999999';
+        }
+
+        function formatValue(value) {
+            if (value === null || value === undefined) return 'N/A';
+            if (typeof value === 'number') return Number.isInteger(value) ? `${value}` : value.toFixed(4);
+            if (Array.isArray(value)) return `[${value.length} items]`;
+            if (typeof value === 'object') return '[Object]';
+            return `${value}`;
+        }
+
+        function getTimeOfDayValue(timestamp) {
+            const d = new Date(timestamp);
+            return (d.getHours() * 3600) + (d.getMinutes() * 60) + d.getSeconds();
+        }
+
+        function flattenObject(obj, prefix = '', rows = []) {
+            if (obj === null || obj === undefined) {
+                rows.push({ metric: prefix, value: 'N/A' });
+                return rows;
+            }
+
+            if (typeof obj !== 'object' || obj instanceof Date) {
+                rows.push({ metric: prefix, value: obj });
+                return rows;
+            }
+
+            if (Array.isArray(obj)) {
+                if (obj.length === 0) {
+                    rows.push({ metric: prefix, value: '[]' });
+                } else {
+                    obj.forEach((item, index) => {
+                        flattenObject(item, `${prefix}[${index}]`, rows);
+                    });
+                }
+                return rows;
+            }
+
+            Object.keys(obj).forEach((key) => {
+                const nextPrefix = prefix ? `${prefix}.${key}` : key;
+                flattenObject(obj[key], nextPrefix, rows);
+            });
+
+            return rows;
+        }
+
+        function buildMetricTable(title, dataObj) {
+            const rows = flattenObject(dataObj)
+                .filter(r => r.metric)
+                .slice(0, 80)
+                .map(r => `<tr><td>${r.metric}</td><td>${formatValue(r.value)}</td></tr>`)
+                .join('');
+
+            return `
+                <div class="metric-table-wrap">
+                    <div class="metric-table-title">${title}</div>
+                    <table class="metric-table">
+                        <tbody>
+                            ${rows || '<tr><td colspan="2">No data available</td></tr>'}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+
+        function destroyDashboardCharts() {
+            dashboardCharts.forEach(chart => {
+                try { chart.destroy(); } catch (e) {}
+            });
+            dashboardCharts = [];
+        }
+
+        // ===== FILTER & SORT =====
+        function applyFiltersAndSort() {
+            const searchTerm = (document.getElementById('searchInput').value || '').toLowerCase();
+            const sortMode = document.getElementById('sortSelect').value;
+            const statusMode = document.getElementById('statusSelect').value;
+            const validityMode = document.getElementById('validitySelect').value;
+
+            let filtered = allSessions.filter(session =>
+                session.session_id.toLowerCase().includes(searchTerm) ||
+                (session.grade || '').toLowerCase().includes(searchTerm)
+            );
+
+            if (statusMode === 'complete') {
+                filtered = filtered.filter(session => session.is_complete);
+            } else if (statusMode === 'errors') {
+                filtered = filtered.filter(session => !session.is_complete || (session.total_errors || 0) > 0);
+            }
+
+            if (validityMode === 'both_valid') {
+                filtered = filtered.filter(session => session.dynamic_valid && session.static_valid);
+            } else if (validityMode === 'dynamic_invalid') {
+                filtered = filtered.filter(session => !session.dynamic_valid);
+            } else if (validityMode === 'static_invalid') {
+                filtered = filtered.filter(session => !session.static_valid);
+            }
+
+            filtered.sort((a, b) => {
+                if (sortMode === 'old_new') {
+                    return new Date(a.timestamp) - new Date(b.timestamp);
+                }
+                if (sortMode === 'new_old') {
+                    return new Date(b.timestamp) - new Date(a.timestamp);
+                }
+                if (sortMode === 'id_asc') {
+                    return a.session_id.localeCompare(b.session_id);
+                }
+                if (sortMode === 'id_desc') {
+                    return b.session_id.localeCompare(a.session_id);
+                }
+                if (sortMode === 'time_asc') {
+                    return getTimeOfDayValue(a.timestamp) - getTimeOfDayValue(b.timestamp);
+                }
+                if (sortMode === 'time_desc') {
+                    return getTimeOfDayValue(b.timestamp) - getTimeOfDayValue(a.timestamp);
+                }
+                return 0;
+            });
+
+            renderSessions(filtered);
+        }
+
+        // ===== LOAD SESSIONS =====
+        async function loadSessions() {
+            try {
+                document.getElementById('loadingContainer').style.display = 'block';
+                document.getElementById('sessionsContainer').innerHTML = '';
+                document.getElementById('emptyState').style.display = 'none';
+
+                const response = await fetch(`${API_BASE}/api/records`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: Failed to load sessions`);
+                }
+
+                const data = await response.json();
+                allSessions = (data.sessions || []).sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+                document.getElementById('sessionBadge').textContent = `${allSessions.length} ${allSessions.length === 1 ? 'session' : 'sessions'}`;
+                document.getElementById('loadingContainer').style.display = 'none';
+
+                if (allSessions.length === 0) {
+                    document.getElementById('emptyState').style.display = 'block';
+                    return;
+                }
+
+                applyFiltersAndSort();
+            } catch (error) {
+                console.error('Error loading sessions:', error);
+                document.getElementById('loadingContainer').innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: #f5576c;">
+                        <div style="font-size: 16px; margin-bottom: 10px;">❌ Error loading assessments</div>
+                        <div style="font-size: 12px; color: #888; margin-bottom: 15px;">${error.message}</div>
+                        <button onclick="loadSessions()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: 600;">Retry</button>
+                    </div>
+                `;
+            }
+        }
+
+        // ===== RENDER SESSIONS =====
+        function renderSessions(sessions) {
+            const container = document.getElementById('sessionsContainer');
+            container.innerHTML = '';
+
+            if (sessions.length === 0) {
+                container.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #888;">📭 No assessments match your filters</div>`;
+                return;
+            }
+
+            sessions.forEach(session => {
+                const card = document.createElement('div');
+                card.className = 'session-card';
+
+                const score = session.score || 0;
+                const grade = session.grade || 'N/A';
+                const efficiency = session.drawing_efficiency || 0;
+                const quality = session.shape_quality || 0;
+                
+                let gradeClass = 'grade-f';
+                if (grade === 'A' || grade === 'A+') gradeClass = 'grade-a';
+                else if (grade.startsWith('B')) gradeClass = 'grade-b';
+                else if (grade.startsWith('C')) gradeClass = 'grade-c';
+                else if (grade.startsWith('D')) gradeClass = 'grade-d';
+
+                const dt = new Date(session.timestamp);
+                const date = dt.toLocaleDateString();
+                const time = dt.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+                const completeClass = session.is_complete ? 'ok' : 'bad';
+                const dynClass = session.dynamic_valid ? 'ok' : 'bad';
+                const statClass = session.static_valid ? 'ok' : 'bad';
+
+                const durationText = formatDuration(session.total_drawing_time_ms || 0);
+
+                card.innerHTML = `
+                    <div class="session-id">ID: ${session.session_id}</div>
+                    <div class="session-datetime">
+                        <span>📅 ${date}</span>
+                        <span>🕐 ${time}</span>
+                    </div>
+                    
+                    <div class="score-section">
+                        <div class="score-main">
+                            <div class="score-label">Grade</div>
+                            <div class="score-grade ${gradeClass}">${grade}</div>
+                            <div class="score-numeric">${score.toFixed(1)}/100</div>
+                        </div>
+                        <div class="score-components">
+                            <div class="component-bar">
+                                <div class="component-header">
+                                    <span>Efficiency</span>
+                                    <span>${efficiency.toFixed(0)}%</span>
+                                </div>
+                                <div class="component-bar-bg">
+                                    <div class="component-bar-fill bar-efficiency" style="width: ${Math.min(efficiency, 100)}%"></div>
+                                </div>
+                            </div>
+                            <div class="component-bar">
+                                <div class="component-header">
+                                    <span>Quality</span>
+                                    <span>${quality.toFixed(0)}%</span>
+                                </div>
+                                <div class="component-bar-bg">
+                                    <div class="component-bar-fill bar-quality" style="width: ${Math.min(quality, 100)}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="session-meta">
+                        <div class="meta-pill ${completeClass}">${session.is_complete ? '✓ Complete' : '✗ Incomplete'}</div>
+                        <div class="meta-pill ${session.total_errors > 0 ? 'warn' : 'ok'}">Errors: ${session.total_errors || 0}</div>
+                        <div class="meta-pill ${dynClass}">Dynamic ${session.dynamic_valid ? '✓' : '✗'}</div>
+                        <div class="meta-pill ${statClass}">Static ${session.static_valid ? '✓' : '✗'}</div>
+                    </div>
+                    
+                    <div class="session-details">
+                        <div class="detail-item">
+                            <div class="detail-label">Tasks</div>
+                            <div class="detail-value">${session.task_count || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Strokes</div>
+                            <div class="detail-value">${session.total_strokes || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Metrics</div>
+                            <div class="detail-value">${session.metrics_extracted || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Duration</div>
+                            <div class="detail-value" style="font-size: 13px;">${durationText}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="session-actions">
+                        <button class="action-button" onclick="viewReport('${session.session_id}')">👁️ View</button>
+                        <button class="action-button" onclick="downloadReport('${session.session_id}')">⬇️ Download</button>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        // ===== BUILD INTERPRETATION SUMMARY =====
+        function buildInterpretationSummary(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+            const assessment = report?.analysis?.assessment || {};
+            const overall = assessment?.overall_assessment || {};
+
+            const speed = dynamic?.speed?.average || 0;
+            const accel = dynamic?.acceleration?.average || 0;
+            const drawTime = dynamic?.timing?.total_drawing_time_ms || 0;
+            const strokes = dynamic?.timing?.strokes || 0;
+            const points = dynamic?.timing?.points || 0;
+            const efficiency = assessment?.drawing_efficiency || 0;
+            const quality = assessment?.shape_quality || 0;
+            const compactness = staticFeatures?.shape?.compactness || 0;
+            const solidity = staticFeatures?.shape?.solidity || 0;
+
+            // Generate insights
+            let dynamicInsights = [];
+            let staticInsights = [];
+            let overallInsights = [];
+
+            // Dynamic insights
+            if (speed < 0.3) dynamicInsights.push('🐢 Slow drawing speed - may indicate careful, deliberate approach');
+            if (speed >= 0.3 && speed < 0.8) dynamicInsights.push('✓ Moderate drawing speed - balanced pace');
+            if (speed >= 0.8) dynamicInsights.push('⚡ Fast drawing speed - quick, confident movements');
+
+            if (accel < 0.05) dynamicInsights.push('📏 Steady acceleration - smooth, controlled movements');
+            if (accel >= 0.05 && accel < 0.2) dynamicInsights.push('⚙️ Normal acceleration variation - typical movement patterns');
+            if (accel >= 0.2) dynamicInsights.push('🎢 High acceleration variability - significant speed changes');
+
+            if (strokes < 3) dynamicInsights.push('✏️ Few strokes - minimal composition');
+            if (strokes >= 3 && strokes <= 10) dynamicInsights.push('✓ Moderate strokes - standard drawing complexity');
+            if (strokes > 10) dynamicInsights.push('🎨 Many strokes - detailed, layered composition');
+
+            if (drawTime < 5000) dynamicInsights.push('⏱️ Quick drawing - completed rapidly');
+            if (drawTime >= 5000 && drawTime < 30000) dynamicInsights.push('✓ Normal duration - typical completion time');
+            if (drawTime >= 30000) dynamicInsights.push('🏗️ Extended drawing - took significant time');
+
+            // Static insights
+            if (quality < 50) staticInsights.push('⚠️ Lower quality - shape deviates from reference');
+            if (quality >= 50 && quality < 75) staticInsights.push('✓ Good quality - reasonable shape accuracy');
+            if (quality >= 75) staticInsights.push('⭐ Excellent quality - high shape accuracy');
+
+            if (efficiency < 50) staticInsights.push('📍 Lower efficiency - spread usage of canvas');
+            if (efficiency >= 50 && efficiency < 75) staticInsights.push('✓ Good efficiency - effective space utilization');
+            if (efficiency >= 75) staticInsights.push('⭐ High efficiency - optimized canvas usage');
+
+            if (compactness < 0.3) staticInsights.push('📐 Loose form - spread out drawing');
+            if (compactness >= 0.3 && compactness < 0.6) staticInsights.push('✓ Moderate form - balanced compactness');
+            if (compactness >= 0.6) staticInsights.push('🎯 Tight form - compact, concentrated drawing');
+
+            // Overall insights
+            const overallScore = overall?.score || 0;
+            if (overallScore >= 80) overallInsights.push('🌟 Excellent Performance - Outstanding execution');
+            else if (overallScore >= 60) overallInsights.push('✅ Good Performance - Solid results');
+            else if (overallScore >= 40) overallInsights.push('⚠️ Fair Performance - Room for improvement');
+            else overallInsights.push('❌ Needs Improvement - Significant practice recommended');
+
+            return {
+                dynamic: dynamicInsights,
+                static: staticInsights,
+                overall: overallInsights
+            };
+        }
+
+        // ===== BUILD STATS CARDS =====
+        function buildStatCardsHTML(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+            const timing = dynamic?.timing || {};
+            const assessment = report?.analysis?.assessment || {};
+
+            const stats = [
+                { label: 'Drawing Consistency', value: `${Math.round(100 - Math.min((dynamic?.acceleration?.variance || 0) * 1000, 100))}%`, icon: '📊', color: '#667eea' },
+                { label: 'Stroke Precision', value: `${Math.round((staticFeatures?.shape?.solidity || 0) * 100)}%`, icon: '🎯', color: '#21c7a8' },
+                { label: 'Canvas Usage', value: `${Math.round((staticFeatures?.percent_canvas_covered || 0))}%`, icon: '📐', color: '#FFB74D' },
+                { label: 'Total Strokes', value: `${timing?.strokes || 0}`, icon: '✏️', color: '#FF9800' },
+                { label: 'Total Points', value: `${(timing?.points || 0) > 999 ? (timing.points / 1000).toFixed(1) + 'k' : timing.points || 0}`, icon: '•', color: '#f5576c' },
+                { label: 'Drawing Efficiency', value: `${(assessment?.drawing_efficiency || 0).toFixed(1)}%`, icon: '⚡', color: '#764ba2' }
+            ];
+
+            return stats.map(s => `
+                <div class="dashboard-card" style="background: linear-gradient(135deg, rgba(${s.color === '#667eea' ? '102, 126, 234' : s.color === '#21c7a8' ? '33, 199, 168' : s.color === '#FFB74D' ? '255, 183, 77' : s.color === '#FF9800' ? '255, 152, 0' : s.color === '#f5576c' ? '245, 87, 108' : '118, 75, 162'}, 0.15) 0%, rgba(${s.color === '#667eea' ? '118, 75, 162' : s.color === '#21c7a8' ? '0, 188, 212' : s.color === '#FFB74D' ? '255, 152, 0' : s.color === '#FF9800' ? '255, 193, 7' : s.color === '#f5576c' ? '255, 152, 0' : '102, 126, 234'}, 0.1) 100%); border: 1px solid rgba(${s.color === '#667eea' ? '102, 126, 234' : s.color === '#21c7a8' ? '33, 199, 168' : '255, 152, 0'}, 0.3);">
+                    <div style="font-size: 18px; margin-bottom: 4px;">${s.icon}</div>
+                    <div style="font-size: 10px; color: var(--text-tertiary); margin-bottom: 4px; font-weight: 700; letter-spacing: 0.5px;">${s.label.toUpperCase()}</div>
+                    <div style="font-size: 16px; font-weight: 700; color: ${s.color};">${s.value}</div>
+                </div>
+            `).join('');
+        }
+
+        // ===== BUILD ADVANCED CHARTS =====
+        function buildAdvancedCharts(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+
+            return `
+                <div class="charts-grid">
+                    <!-- Speed Distribution -->
+                    <div class="chart-box">
+                        <div class="chart-title">Speed Profile</div>
+                        <div style="height: 250px;"><canvas id="speedDistChart"></canvas></div>
+                    </div>
+
+                    <!-- Stroke Pattern -->
+                    <div class="chart-box">
+                        <div class="chart-title">Stroke Analysis</div>
+                        <div style="height: 250px;"><canvas id="strokeChart"></canvas></div>
+                    </div>
+
+                    <!-- Pressure Distribution -->
+                    <div class="chart-box">
+                        <div class="chart-title">Pressure & Acceleration</div>
+                        <div style="height: 250px;"><canvas id="pressureChart"></canvas></div>
+                    </div>
+
+                    <!-- Pauses Analysis -->
+                    <div class="chart-box">
+                        <div class="chart-title">Pause Patterns</div>
+                        <div style="height: 250px;"><canvas id="pauseChart"></canvas></div>
+                    </div>
+
+                    <!-- Shape Properties -->
+                    <div class="chart-box">
+                        <div class="chart-title">Shape Properties</div>
+                        <div style="height: 250px;"><canvas id="shapeChart"></canvas></div>
+                    </div>
+
+                    <!-- Performance Gauge -->
+                    <div class="chart-box">
+                        <div class="chart-title">Overall Performance</div>
+                        <div style="height: 250px;"><canvas id="gaugeChart"></canvas></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // ===== RENDER ADVANCED CHARTS =====
+        function renderAdvancedCharts(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+            const assessment = report?.analysis?.assessment || {};
+
+            const chartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { labels: { color: '#d0d0d0' } } },
+                scales: {
+                    x: { ticks: { color: '#c6c6c6' }, grid: { color: '#333' } },
+                    y: { ticks: { color: '#c6c6c6' }, grid: { color: '#333' } }
+                }
+            };
+
+            // Speed Distribution
+            const speedDistCtx = document.getElementById('speedDistChart');
+            if (speedDistCtx) {
+                dashboardCharts.push(new Chart(speedDistCtx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Min', 'Q1', 'Median', 'Q3', 'Max', 'Avg'],
+                        datasets: [{
+                            label: 'Speed Distribution (px/ms)',
+                            data: [
+                                (dynamic?.speed?.minimum || 0),
+                                (dynamic?.speed?.average || 0) * 0.6,
+                                (dynamic?.speed?.average || 0),
+                                (dynamic?.speed?.average || 0) * 1.2,
+                                (dynamic?.speed?.maximum || 0),
+                                (dynamic?.speed?.average || 0)
+                            ],
+                            borderColor: '#667eea',
+                            backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                            fill: true,
+                            tension: 0.4,
+                            pointRadius: 6,
+                            pointBackgroundColor: '#764ba2',
+                            pointBorderColor: '#fff',
+                            pointBorderWidth: 2
+                        }]
+                    },
+                    options: chartOptions
+                }));
+            }
+
+            // Stroke Analysis
+            const strokeCtx = document.getElementById('strokeChart');
+            if (strokeCtx) {
+                dashboardCharts.push(new Chart(strokeCtx, {
+                    type: 'bubble',
+                    data: {
+                        datasets: [{
+                            label: 'Strokes (Size=Count, X=Avg Length, Y=Variance)',
+                            data: [
+                                {
+                                    x: (dynamic?.timing?.strokes || 1),
+                                    y: (dynamic?.movement?.average_curve || 0),
+                                    r: Math.sqrt((dynamic?.timing?.points || 1)) / 2
+                                }
+                            ],
+                            backgroundColor: 'rgba(102, 126, 234, 0.6)',
+                            borderColor: '#667eea',
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { labels: { color: '#d0d0d0' } } },
+                        scales: {
+                            x: { 
+                                title: { display: true, text: 'Stroke Count', color: '#c6c6c6' },
+                                ticks: { color: '#c6c6c6' }, 
+                                grid: { color: '#333' } 
+                            },
+                            y: { 
+                                title: { display: true, text: 'Curvature', color: '#c6c6c6' },
+                                ticks: { color: '#c6c6c6' }, 
+                                grid: { color: '#333' } 
+                            }
+                        }
+                    }
+                }));
+            }
+
+            // Pressure & Acceleration
+            const pressureCtx = document.getElementById('pressureChart');
+            if (pressureCtx) {
+                dashboardCharts.push(new Chart(pressureCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Min Accel', 'Avg Accel', 'Max Accel', 'Accel Variance'],
+                        datasets: [{
+                            label: 'Acceleration Profile',
+                            data: [
+                                (dynamic?.acceleration?.minimum || 0),
+                                (dynamic?.acceleration?.average || 0),
+                                (dynamic?.acceleration?.maximum || 0),
+                                (dynamic?.acceleration?.variance || 0)
+                            ],
+                            backgroundColor: ['#ff6b6b', '#ffa07a', '#ffb347', '#ffc966']
+                        }]
+                    },
+                    options: chartOptions
+                }));
+            }
+
+            // Pauses Analysis
+            const pauseCtx = document.getElementById('pauseChart');
+            if (pauseCtx) {
+                dashboardCharts.push(new Chart(pauseCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Pause Time', 'Active Time'],
+                        datasets: [{
+                            data: [
+                                dynamic?.timing?.total_pause_time_ms || 0,
+                                dynamic?.timing?.total_drawing_time_ms || 0
+                            ],
+                            backgroundColor: ['#ff6b6b', '#667eea']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { labels: { color: '#d0d0d0' } } }
+                    }
+                }));
+            }
+
+            // Shape Properties
+            const shapeCtx = document.getElementById('shapeChart');
+            if (shapeCtx) {
+                dashboardCharts.push(new Chart(shapeCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Compactness', 'Solidity', 'Sym X', 'Sym Y'],
+                        datasets: [{
+                            label: 'Shape Metrics (0-1)',
+                            data: [
+                                staticFeatures?.shape?.compactness || 0,
+                                staticFeatures?.shape?.solidity || 0,
+                                Math.abs(staticFeatures?.shape?.symmetry_x || 0),
+                                Math.abs(staticFeatures?.shape?.symmetry_y || 0)
+                            ],
+                            backgroundColor: ['#21c7a8', '#5dff6c', '#4bcffa', '#95e1d3']
+                        }]
+                    },
+                    options: chartOptions
+                }));
+            }
+
+            // Performance Gauge
+            const gaugeCtx = document.getElementById('gaugeChart');
+            if (gaugeCtx) {
+                const score = (assessment?.overall_assessment?.score || 0);
+                dashboardCharts.push(new Chart(gaugeCtx, {
+                    type: 'doughnut',
+                    data: {
+                        datasets: [{
+                            data: [score, 100 - score],
+                            backgroundColor: [
+                                score >= 75 ? '#4CAF50' : score >= 50 ? '#FF9800' : '#f5576c',
+                                'rgba(200, 200, 200, 0.2)'
+                            ],
+                            borderColor: ['#fff'],
+                            circumference: 180,
+                            rotation: 270
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: { enabled: false }
+                        }
+                    }
+                }));
+            }
+        }
+
+        // ===== BUILD METRICS INTERPRETATION =====
+        function buildMetricsInterpretation(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+
+            return `
+                <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 20px;">
+                    <div style="font-size: 14px; font-weight: 700; color: var(--text-primary); margin-bottom: 12px;">📊 Metrics Interpretation Guide</div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <div>
+                            <div style="font-size: 12px; font-weight: 700; color: #667eea; margin-bottom: 8px;">🎯 DYNAMIC METRICS (Movement Patterns)</div>
+                            <ul style="list-style: none; font-size: 12px; color: var(--text-secondary); line-height: 1.6;">
+                                <li><strong>Speed:</strong> ${(dynamic?.speed?.average || 0).toFixed(3)} px/ms - Drawing velocity</li>
+                                <li><strong>Acceleration:</strong> ${(dynamic?.acceleration?.average || 0).toFixed(3)} - Change in velocity</li>
+                                <li><strong>Direction Changes:</strong> ${dynamic?.movement?.direction_changes || 0} - Movement complexity</li>
+                                <li><strong>Strokes:</strong> ${dynamic?.timing?.strokes || 0} - Number of pen lifts</li>
+                                <li><strong>Total Points:</strong> ${dynamic?.timing?.points || 0} - Data granularity</li>
+                                <li><strong>Duration:</strong> ${formatDuration(dynamic?.timing?.total_drawing_time_ms || 0)}</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <div style="font-size: 12px; font-weight: 700; color: #21c7a8; margin-bottom: 8px;">🔷 STATIC METRICS (Shape Properties)</div>
+                            <ul style="list-style: none; font-size: 12px; color: var(--text-secondary); line-height: 1.6;">
+                                <li><strong>Compactness:</strong> ${(staticFeatures?.shape?.compactness || 0).toFixed(3)} - Shape density (0-1)</li>
+                                <li><strong>Solidity:</strong> ${(staticFeatures?.shape?.solidity || 0).toFixed(3)} - Convex coverage (0-1)</li>
+                                <li><strong>Symmetry X:</strong> ${(staticFeatures?.shape?.symmetry_x || 0).toFixed(3)} - Horizontal balance</li>
+                                <li><strong>Symmetry Y:</strong> ${(staticFeatures?.shape?.symmetry_y || 0).toFixed(3)} - Vertical balance</li>
+                                <li><strong>Bounding Box:</strong> ${(staticFeatures?.shape?.bounding_box_area || 0).toFixed(0)} px² - Overall size</li>
+                                <li><strong>Percent Canvas:</strong> ${(staticFeatures?.percent_canvas_covered || 0).toFixed(2)}%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // ===== VIEW REPORT =====
+        async function viewReport(sessionId) {
+            try {
+                const response = await fetch(`${API_BASE}/api/records/${sessionId}/details`);
+
+                if (!response.ok) {
+                    throw new Error('Failed to load report');
+                }
+
+                const details = await response.json();
+                currentSessionForDownload = sessionId;
+
+                const report = details.report || {};
+                const dynamic = report?.features?.dynamic || {};
+                const staticFeatures = report?.features?.static || {};
+                const assessment = report?.analysis?.assessment || {};
+                const overall = assessment?.overall_assessment || {};
+                const timing = dynamic?.timing || {};
+                const grade = overall?.grade || 'N/A';
+                const score = overall?.score || 0;
+                const efficiency = assessment?.drawing_efficiency || 0;
+                const quality = assessment?.shape_quality || 0;
+                const images = details.images || [];
+
+                destroyDashboardCharts();
+
+                const reportContent = document.getElementById('reportContent');
+                reportContent.innerHTML = `
+                    <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--accent-primary); margin-bottom: 20px; padding-bottom: 16px;">
+                        <h2 style="margin: 0; font-size: 20px; color: var(--text-primary);">🎯 Detailed Assessment Report</h2>
+                        <button onclick="closeReportModal()" style="background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 24px; transition: all 0.2s ease;" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-secondary)'">✕</button>
+                    </div>
+
+                    <div class="modal-tabs">
+                        <button class="modal-tab-btn active" onclick="switchReportTab('overview')">📋 Overview</button>
+                        <button class="modal-tab-btn" onclick="switchReportTab('metrics')">📊 Metrics & Viz</button>
+                        <button class="modal-tab-btn" onclick="switchReportTab('images')">🖼️ Drawing</button>
+                        <button class="modal-tab-btn" onclick="switchReportTab('analysis')">🔍 Analysis</button>
+                    </div>
+
+                    <div class="modal-content-wrapper">
+                        <!-- Overview Tab -->
+                        <div id="report-tab-overview" class="modal-tab-content active">
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-bottom: 20px;">
+                                ${buildStatCardsHTML(report)}
+                            </div>
+
+                            <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); border: 2px solid var(--accent-primary); border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 8px 32px rgba(102, 126, 234, 0.1);">
+                                <h3 style="margin: 0 0 16px 0; color: var(--text-primary); font-size: 16px;">📈 Overall Performance Summary</h3>
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                                    <div>
+                                        <div style="font-size: 56px; font-weight: 700; color: ${getGradeColor(grade)}; text-shadow: 0 0 25px ${getGradeColor(grade)}; line-height: 1;">${grade}</div>
+                                        <div style="font-size: 14px; color: var(--text-secondary); margin-top: 8px;">Score: <strong>${score.toFixed(1)}/100</strong></div>
+                                        <div style="font-size: 12px; color: var(--text-secondary); margin-top: 4px;">${score >= 80 ? '⭐ Excellent' : score >= 60 ? '✅ Good' : score >= 40 ? '⚠️ Fair' : '❌ Needs Work'}</div>
+                                    </div>
+                                    <div>
+                                        <div style="margin-bottom: 16px;">
+                                            <div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; font-weight: 600;">🎯 Drawing Efficiency</div>
+                                            <div style="height: 10px; background: rgba(255,255,255,0.1); border-radius: 5px; overflow: hidden; border: 1px solid rgba(255,255,255,0.2);">
+                                                <div style="height: 100%; width: ${Math.min(efficiency, 100)}%; background: linear-gradient(90deg, #667eea, #764ba2); transition: width 0.5s ease; box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);"></div>
+                                            </div>
+                                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">${efficiency.toFixed(1)}%</div>
+                                        </div>
+                                        <div>
+                                            <div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; font-weight: 600;">🔷 Shape Quality</div>
+                                            <div style="height: 10px; background: rgba(255,255,255,0.1); border-radius: 5px; overflow: hidden; border: 1px solid rgba(255,255,255,0.2);">
+                                                <div style="height: 100%; width: ${Math.min(quality, 100)}%; background: linear-gradient(90deg, #21c7a8, #5dff6c); transition: width 0.5s ease; box-shadow: 0 0 10px rgba(33, 199, 168, 0.5);"></div>
+                                            </div>
+                                            <div style="font-size: 11px; color: var(--text-secondary); margin-top: 4px;">${quality.toFixed(1)}%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 8px; padding: 16px;">
+                                <h3 style="margin: 0 0 16px 0; color: var(--text-primary); font-size: 14px;">💡 Key Insights & Interpretation</h3>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
+                                    ${buildInsightCardsHTML(buildInterpretationSummary(report))}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Metrics Tab -->
+                        <div id="report-tab-metrics" class="modal-tab-content">
+                            <div style="margin-bottom: 20px;">
+                                <h3 style="color: var(--text-primary); margin: 0 0 16px 0; font-size: 15px;">📊 Comprehensive Visualization & Interpretation</h3>
+                                ${buildMetricsInterpretation(report)}
+                                ${buildAdvancedCharts(report)}
+                            </div>
+                        </div>
+
+                        <!-- Images Tab -->
+                        <div id="report-tab-images" class="modal-tab-content">
+                            <h3 style="color: var(--text-primary); margin: 0 0 16px 0;">🖼️ Captured Drawings</h3>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px;">
+                                ${images.length > 0 ? images.map(img => `
+                                    <div style="background: linear-gradient(135deg, #2a2a4a 0%, #1f1f3a 100%); border: 1px solid var(--border); border-radius: 8px; padding: 12px; overflow: hidden;">
+                                        <img src="${API_BASE}${img.url}" alt="${img.name}" style="width:100%; aspect-ratio: 4/3; object-fit: contain; background: #000; border-radius: 4px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                                        <div style="margin-top: 8px; font-size: 12px; color: var(--text-secondary); word-break: break-word;">${img.name}</div>
+                                    </div>
+                                `).join('') : '<div style="grid-column: 1/-1; color: var(--text-tertiary); font-size: 13px; text-align: center; padding: 40px 20px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px dashed var(--border);">No saved images</div>'}
+                            </div>
+                        </div>
+
+                        <!-- Analysis Tab -->
+                        <div id="report-tab-analysis" class="modal-tab-content">
+                            <h3 style="color: var(--text-primary); margin: 0 0 16px 0;">🔍 Detailed Analysis Report</h3>
+                            <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%); border-left: 4px solid var(--accent-primary); border-radius: 8px; padding: 20px; font-size: 13px; line-height: 1.8; color: var(--text-secondary);">
+                                ${buildDetailedAnalysisHTML(report)}
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('reportModal').classList.add('active');
+
+                // Render charts after DOM is ready
+                setTimeout(() => renderAdvancedCharts(report), 200);
+            } catch (error) {
+                console.error('Error loading report:', error);
+                alert('Error loading report: ' + error.message);
+            }
+        }
+
+        function switchReportTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.modal-tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.modal-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected tab
+            const tabElement = document.getElementById('report-tab-' + tabName);
+            if (tabElement) {
+                tabElement.classList.add('active');
+                // Activate corresponding button
+                event.target.classList.add('active');
+            }
+        }
+
+        function buildStatCardsHTML(report) {
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+            const timing = dynamic?.timing || {};
+            const assessment = report?.analysis?.assessment || {};
+
+            const stats = [
+                { label: 'Drawing Consistency', value: `${Math.round(100 - Math.min((dynamic?.acceleration?.variance || 0) * 1000, 100))}%`, icon: '📊', color: '#667eea' },
+                { label: 'Stroke Precision', value: `${Math.round((staticFeatures?.shape?.solidity || 0) * 100)}%`, icon: '🎯', color: '#21c7a8' },
+                { label: 'Canvas Usage', value: `${Math.round((staticFeatures?.percent_canvas_covered || 0))}%`, icon: '📐', color: '#FFB74D' },
+                { label: 'Total Strokes', value: `${timing?.strokes || 0}`, icon: '✏️', color: '#FF9800' },
+                { label: 'Total Points', value: `${(timing?.points || 0) > 999 ? (timing.points / 1000).toFixed(1) + 'k' : timing.points || 0}`, icon: '•', color: '#f5576c' },
+                { label: 'Drawing Efficiency', value: `${(assessment?.drawing_efficiency || 0).toFixed(1)}%`, icon: '⚡', color: '#764ba2' }
+            ];
+
+            return stats.map(s => `
+                <div class="dashboard-card" style="background: linear-gradient(135deg, rgba(${s.color === '#667eea' ? '102, 126, 234' : s.color === '#21c7a8' ? '33, 199, 168' : s.color === '#FFB74D' ? '255, 183, 77' : s.color === '#FF9800' ? '255, 152, 0' : s.color === '#f5576c' ? '245, 87, 108' : '118, 75, 162'}, 0.15) 0%, rgba(${s.color === '#667eea' ? '118, 75, 162' : s.color === '#21c7a8' ? '0, 188, 212' : s.color === '#FFB74D' ? '255, 152, 0' : s.color === '#FF9800' ? '255, 193, 7' : s.color === '#f5576c' ? '255, 152, 0' : '102, 126, 234'}, 0.1) 100%); border: 1px solid rgba(${s.color === '#667eea' ? '102, 126, 234' : s.color === '#21c7a8' ? '33, 199, 168' : '255, 152, 0'}, 0.3);">
+                    <div style="font-size: 18px; margin-bottom: 4px;">${s.icon}</div>
+                    <div style="font-size: 10px; color: var(--text-tertiary); margin-bottom: 4px; font-weight: 700; letter-spacing: 0.5px;">${s.label.toUpperCase()}</div>
+                    <div style="font-size: 16px; font-weight: 700; color: ${s.color};">${s.value}</div>
+                </div>
+            `).join('');
+        }
+
+        function buildInsightCardsHTML(summary) {
+            let html = '';
+            if (summary.overall && summary.overall.length > 0) {
+                html += `
+                    <div style="background: linear-gradient(135deg, rgba(76, 175, 80, 0.15), rgba(139, 195, 74, 0.15)); border: 1px solid rgba(76, 175, 80, 0.4); border-radius: 8px; padding: 14px; font-size: 12px; color: #a5d6a7; line-height: 1.6;">
+                        <div style="font-weight: 700; margin-bottom: 8px; color: #66bb6a;">🌟 Overall Performance</div>
+                        ${summary.overall.map(s => `<div style="margin-top: 6px;">${s}</div>`).join('')}
+                    </div>
+                `;
+            }
+            if (summary.dynamic && summary.dynamic.length > 0) {
+                html += `
+                    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(156, 39, 176, 0.15)); border: 1px solid rgba(102, 126, 234, 0.4); border-radius: 8px; padding: 14px; font-size: 12px; color: #9fa8da; line-height: 1.6;">
+                        <div style="font-weight: 700; margin-bottom: 8px; color: #7986cb;">⚡ Movement Pattern</div>
+                        ${summary.dynamic.slice(0, 2).map(s => `<div style="margin-top: 6px;">${s}</div>`).join('')}
+                    </div>
+                `;
+            }
+            if (summary.static && summary.static.length > 0) {
+                html += `
+                    <div style="background: linear-gradient(135deg, rgba(33, 199, 168, 0.15), rgba(0, 188, 212, 0.15)); border: 1px solid rgba(33, 199, 168, 0.4); border-radius: 8px; padding: 14px; font-size: 12px; color: #80deea; line-height: 1.6;">
+                        <div style="font-weight: 700; margin-bottom: 8px; color: #4dd0e1;">🔷 Shape Characteristics</div>
+                        ${summary.static.slice(0, 2).map(s => `<div style="margin-top: 6px;">${s}</div>`).join('')}
+                    </div>
+                `;
+            }
+            return html;
+        }
+
+        function buildDetailedAnalysisHTML(report) {
+            const assessment = report?.analysis?.assessment || {};
+            const overall = assessment?.overall_assessment || {};
+            const dynamic = report?.features?.dynamic || {};
+            const staticFeatures = report?.features?.static || {};
+            const summary = buildInterpretationSummary(report);
+
+            let analysisText = `
+                <div style="margin-bottom: 20px; padding: 14px; background: rgba(102, 126, 234, 0.1); border-left: 3px solid #667eea; border-radius: 4px;">
+                    <div style="font-weight: 700; color: #667eea; font-size: 14px; margin-bottom: 8px;">📌 Overall Assessment</div>
+                    <div>Grade: <strong style="color: ${getGradeColor(overall.grade || 'N/A')}">${overall.grade || 'N/A'}</strong> | Score: <strong>${(overall.score || 0).toFixed(1)}/100</strong></div>
+                </div>
+
+                <div style="margin-bottom: 20px; padding: 14px; background: rgba(102, 126, 234, 0.08); border-left: 3px solid #667eea; border-radius: 4px;">
+                    <div style="font-weight: 700; color: #667eea; font-size: 14px; margin-bottom: 8px;">🎯 Performance Metrics</div>
+                    <div style="line-height: 1.8;">
+                        <div>• Drawing Efficiency: <strong>${(assessment.drawing_efficiency || 0).toFixed(1)}%</strong> - Effective use of canvas space and stroke economy</div>
+                        <div>• Shape Quality: <strong>${(assessment.shape_quality || 0).toFixed(1)}%</strong> - Accuracy and similarity to reference shape</div>
+                        <div>• Total Time: <strong>${formatDuration(dynamic?.timing?.total_drawing_time_ms || 0)}</strong> - Time invested in the task</div>
+                        <div>• Total Strokes: <strong>${dynamic?.timing?.strokes || 0}</strong> - Number of individual pen movements/segments</div>
+                        <div>• Total Points: <strong>${dynamic?.timing?.points || 0}</strong> - Data points captured (resolution)</div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px; padding: 14px; background: rgba(33, 199, 168, 0.08); border-left: 3px solid #21c7a8; border-radius: 4px;">
+                    <div style="font-weight: 700; color: #21c7a8; font-size: 14px; margin-bottom: 8px;">⚡ Movement & Dynamics Analysis</div>
+                    <div style="line-height: 1.8;">
+                        <div>${summary.dynamic.length > 0 ? summary.dynamic[0] : 'Standard movement pattern detected.'}</div>
+                        <div style="margin-top: 8px;">• Avg Speed: <strong>${(dynamic?.speed?.average || 0).toFixed(4)}</strong> px/ms | Max: <strong>${(dynamic?.speed?.maximum || 0).toFixed(4)}</strong> px/ms</div>
+                        <div>• Acceleration Variance: <strong>${(dynamic?.acceleration?.variance || 0).toFixed(4)}</strong> (lower = smoother)</div>
+                        <div>• Direction Changes: <strong>${dynamic?.movement?.direction_changes || 0}</strong> (complexity indicator)</div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px; padding: 14px; background: rgba(255, 152, 0, 0.08); border-left: 3px solid #FF9800; border-radius: 4px;">
+                    <div style="font-weight: 700; color: #FF9800; font-size: 14px; margin-bottom: 8px;">📐 Shape & Geometry Analysis</div>
+                    <div style="line-height: 1.8;">
+                        <div>${summary.static.length > 0 ? summary.static[0] : 'Shape profile analyzed.'}</div>
+                        <div style="margin-top: 8px;">• Compactness: <strong>${(staticFeatures?.shape?.compactness || 0).toFixed(3)}</strong> (0=loose, 1=tight)</div>
+                        <div>• Solidity: <strong>${(staticFeatures?.shape?.solidity || 0).toFixed(3)}</strong> (convex coverage ratio)</div>
+                        <div>• Symmetry X: <strong>${(staticFeatures?.shape?.symmetry_x || 0).toFixed(3)}</strong> | Y: <strong>${(staticFeatures?.shape?.symmetry_y || 0).toFixed(3)}</strong></div>
+                    </div>
+                </div>
+
+                <div style="padding: 14px; background: rgba(76, 175, 80, 0.08); border-left: 3px solid #4CAF50; border-radius: 4px;">
+                    <div style="font-weight: 700; color: #4CAF50; font-size: 14px; margin-bottom: 8px;">✅ Summary & Interpretation</div>
+                    <div>${summary.overall.length > 0 ? summary.overall.join('<br style="margin-bottom: 8px;">') : 'Assessment completed.'}</div>
+                </div>
+            `;
+
+            return analysisText;
+        }
+
+        // ===== DOWNLOAD & CLOSE =====
+        async function downloadReport(sessionId) {
+            try {
+                const response = await fetch(`${API_BASE}/api/export/${sessionId}/json`);
+
+                if (!response.ok) {
+                    throw new Error('Download failed');
+                }
+
+                const blob = await response.blob();
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${sessionId}-report.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function downloadCurrentReport() {
+            if (currentSessionForDownload) {
+                downloadReport(currentSessionForDownload);
+            }
+        }
+
+        function closeReportModal() {
+            destroyDashboardCharts();
+            document.getElementById('reportModal').classList.remove('active');
+        }
+
+        // ===== EVENT LISTENERS =====
+        document.getElementById('searchInput').addEventListener('input', applyFiltersAndSort);
+        document.getElementById('sortSelect').addEventListener('change', applyFiltersAndSort);
+        document.getElementById('statusSelect').addEventListener('change', applyFiltersAndSort);
+        document.getElementById('validitySelect').addEventListener('change', applyFiltersAndSort);
+
+        document.getElementById('reportModal').addEventListener('click', (e) => {
+            if (e.target.id === 'reportModal') closeReportModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeReportModal();
+        });
+
+        document.addEventListener('DOMContentLoaded', loadSessions);
+    </script>
+</body>
+</html>

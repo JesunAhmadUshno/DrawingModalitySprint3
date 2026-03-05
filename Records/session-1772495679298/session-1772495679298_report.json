@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-02T18:54:40.580411",
+    "session_id": "session-1772495679298",
+    "pipeline_version": "3.0-production"
+  },
+  "validation": {
+    "dynamic": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    "static": {
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "features": {
+    "dynamic": {
+      "speed": {
+        "average": 1.2640372134524027,
+        "maximum": 6.7463982160030325,
+        "variance": 1.166112919844395
+      },
+      "acceleration": {
+        "average": 0.09591617284167646,
+        "maximum": 0.9853928292459327,
+        "variance": 0.023014855311563442
+      },
+      "timing": {
+        "total_drawing_time_ms": 12216.0,
+        "total_pause_time_ms": 24038.0,
+        "strokes": 7,
+        "points": 1247
+      },
+      "pauses": {
+        "count": 6,
+        "average_duration_ms": 4006.3333333333335,
+        "maximum_duration_ms": 10697.0
+      },
+      "rhythm": {
+        "avg_inter_stroke_interval_ms": 4006.3333333333335,
+        "stroke_frequency_per_sec": 0.14175492598367792
+      },
+      "movement": {
+        "direction_changes": 67,
+        "average_curvature": 0.07768089231753803,
+        "maximum_curvature": 3.141592653589793
+      }
+    },
+    "static": {
+      "bounding_box": {
+        "area": 137390.5,
+        "width": 459.5,
+        "height": 299.0,
+        "center": {
+          "x": 563.25,
+          "y": 174.0
+        }
+      },
+      "strokes": {
+        "count": 7,
+        "average_length": 1640.421020126925,
+        "total_length": 11482.947140888475
+      },
+      "shape": {
+        "compactness": 0.29483115644822605,
+        "solidity": 0.4473662412820074,
+        "symmetry_x": -0.038640081111320265,
+        "symmetry_y": -0.07296169976751575,
+        "hu_moments": [
+          0.0012290554657321136,
+          1.6047582444586211e-07,
+          2.145150375970431e-10,
+          2.0836167742674545e-11,
+          9.796328312860262e-22,
+          5.07803854961524e-15,
+          -9.903579788841953e-22
+        ]
+      },
+      "density": {
+        "stroke_density": 5.094966536987637e-05,
+        "point_density": 0.009076318959462263
+      }
+    }
+  },
+  "completion": {
+    "error": "No reference image specified",
+    "completion_percentage": 0
+  },
+  "analysis": {
+    "combined": {
+      "feature_sets": {
+        "dynamic_count": 18,
+        "static_count": 15
+      },
+      "total_metrics_extracted": 33,
+      "analysis": {
+        "drawing_efficiency": 87.93,
+        "shape_quality": 17.53,
+        "task_completion": 0,
+        "overall_assessment": {
+          "score": 22.85,
+          "max_score": 100,
+          "completion_component": 0,
+          "efficiency_component": 87.93,
+          "quality_component": 17.53,
+          "grade": "F",
+          "completion_breakdown": {
+            "ssim_score": 0,
+            "orb_matches": 0,
+            "contour_similarity": 0,
+            "sift_matches": 0
+          }
+        }
+      }
+    },
+    "assessment": {
+      "drawing_efficiency": 87.93,
+      "shape_quality": 17.53,
+      "task_completion": 0,
+      "overall_assessment": {
+        "score": 22.85,
+        "max_score": 100,
+        "completion_component": 0,
+        "efficiency_component": 87.93,
+        "quality_component": 17.53,
+        "grade": "F",
+        "completion_breakdown": {
+          "ssim_score": 0,
+          "orb_matches": 0,
+          "contour_similarity": 0,
+          "sift_matches": 0
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_errors": 0,
+    "is_complete": true,
+    "metrics_extracted": 33
+  },
+  "mental_health_assessment": {
+    "stress_score": 5.0,
+    "anxiety_score": 12.5,
+    "burnout_score": 24.8,
+    "cognitive_load_score": 10.0,
+    "overall_wellness": 86.9,
+    "wellness_level": "Excellent",
+    "primary_concern": "burnout",
+    "trend": "stable",
+    "recommendations": [
+      "Maintain current pace - doing well!",
+      "Continue regular practice sessions"
+    ],
+    "indicators": {
+      "tremor_index": 0.0,
+      "pause_ratio": 0.66,
+      "pause_frequency": 0.0,
+      "speed_inconsistency": 0.0,
+      "efficiency_level": 87.93,
+      "quality_level": 17.53,
+      "pressure_stability": 0.5,
+      "fluidity_index": 0.5,
+      "duration_concern": 0.0,
+      "completion_status": 1.0,
+      "error_count": 0.0
+    }
+  }
+}

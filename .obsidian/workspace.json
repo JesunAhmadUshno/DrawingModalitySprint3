@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "b5641ad2557bfb33",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b91dbbb98775c40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "942e0f89ace7aee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "deliverables/dynamic_features/DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16f61592511f9245",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fed626a0d559e54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fbc11313675c935",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "364325d930e026a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d29b9d6f9c6f4094",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "bee2cb8a31ccfaa4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8210120c837850aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef2066d47d400afe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "deliverables/dynamic_features/DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS"
+            }
+          },
+          {
+            "id": "b28c3e4a97403a03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "deliverables/dynamic_features/DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS"
+            }
+          },
+          {
+            "id": "07c29aac586bec54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a42dc79141c7f82a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1b01887b01febd4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "deliverables/dynamic_features/DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "942e0f89ace7aee5",
+  "lastOpenFiles": [
+    "Records/session-1772497933835/session-1772497933835_report.json",
+    "Records/session-1772497933835/PNG/task-1-two-pentagon-copy.png",
+    "Records/session-1772497933835/PNG",
+    "Records/session-1772497933835/JSON/session-1772497933835.json",
+    "Records/session-1772497933835/JSON",
+    "Records/session-1772497933835",
+    "Records/session-1772497911167/session-1772497911167_report.json",
+    "Records/session-1772497911167/JSON/session-1772497911167.json",
+    "Records/session-1772497911167/PNG/task-1-two-pentagon-copy.png",
+    "Records/session-1772497911167/PNG",
+    "Records/session-1772497911167/JSON",
+    "Records/session-1772497911167",
+    "Records/session-1772496625194/session-1772496625194_report.json",
+    "Records/session-1772496625194/PNG/task-1-two-pentagon-copy.png",
+    "Records/session-1772495679298/PNG/task-6-loop-drawing-right-hand.png",
+    "Records/session-1772495679298/PNG/task-2-house-drawing-copy.png",
+    "Records/session-1772495679298/PNG/task-3-clock-drawing.png",
+    "Records/session-1772495679298/PNG/task-1-two-pentagon-copy.png",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_PY_LINE_BY_LINE_EXPLANATION.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_ARCHITECTURE_DIAGRAMS.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_PRESENTATION_SLIDES.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_COMPLETE_DOCUMENTATION.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_PRESENTATION_SPEECH.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_PRESENTATION_SLIDES_EXECUTIVE_10.md",
+    "deliverables/dynamic_features/DYNAMIC_FEATURES_PRESENTATION_SPEECH_5MIN.md"
+  ]
+}

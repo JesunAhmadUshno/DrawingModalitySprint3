@@ -1,0 +1,7127 @@
+{
+  "sessionId": "session-1772497911167",
+  "timestamp": "2026-03-03T00:31:51.167Z",
+  "type": "PulseKey-Assessment",
+  "totalTasks": 7,
+  "tasks": {
+    "1": {
+      "taskId": 1,
+      "title": "Two-Pentagon Copy",
+      "type": "reference-copy",
+      "strokes": [
+        {
+          "strokeId": "stroke-1",
+          "points": [
+            {
+              "x": 244,
+              "y": 320,
+              "timestamp": 1772497894826,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 244,
+              "y": 320,
+              "timestamp": 1772497894830,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 244,
+              "y": 319,
+              "timestamp": 1772497894932,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 243.5,
+              "y": 317,
+              "timestamp": 1772497894944,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 243,
+              "y": 314.5,
+              "timestamp": 1772497894950,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 241,
+              "y": 311.5,
+              "timestamp": 1772497894956,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 240.5,
+              "y": 310,
+              "timestamp": 1772497894963,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 239.5,
+              "y": 306,
+              "timestamp": 1772497894970,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 238,
+              "y": 301.5,
+              "timestamp": 1772497894978,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 237,
+              "y": 298.5,
+              "timestamp": 1772497894986,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 235.5,
+              "y": 295,
+              "timestamp": 1772497894993,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 234.5,
+              "y": 292,
+              "timestamp": 1772497895002,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 234.5,
+              "y": 289,
+              "timestamp": 1772497895010,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 234,
+              "y": 287,
+              "timestamp": 1772497895018,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 233,
+              "y": 283.5,
+              "timestamp": 1772497895029,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 232.5,
+              "y": 280.5,
+              "timestamp": 1772497895035,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 231,
+              "y": 278.5,
+              "timestamp": 1772497895041,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 230,
+              "y": 276,
+              "timestamp": 1772497895048,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 230,
+              "y": 275,
+              "timestamp": 1772497895056,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 229.5,
+              "y": 272.5,
+              "timestamp": 1772497895064,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 228.5,
+              "y": 270.5,
+              "timestamp": 1772497895078,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 228,
+              "y": 269,
+              "timestamp": 1772497895083,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 227.5,
+              "y": 268.5,
+              "timestamp": 1772497895089,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 227,
+              "y": 266,
+              "timestamp": 1772497895095,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 226,
+              "y": 263,
+              "timestamp": 1772497895101,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 225,
+              "y": 258.5,
+              "timestamp": 1772497895110,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 224.5,
+              "y": 256.5,
+              "timestamp": 1772497895117,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 223,
+              "y": 253,
+              "timestamp": 1772497895126,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 223,
+              "y": 252,
+              "timestamp": 1772497895134,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 223,
+              "y": 249.5,
+              "timestamp": 1772497895141,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 222,
+              "y": 248.5,
+              "timestamp": 1772497895150,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 221.5,
+              "y": 246,
+              "timestamp": 1772497895157,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 221.5,
+              "y": 245,
+              "timestamp": 1772497895163,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 220.5,
+              "y": 243.5,
+              "timestamp": 1772497895171,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 220.5,
+              "y": 242,
+              "timestamp": 1772497895179,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 220,
+              "y": 241,
+              "timestamp": 1772497895188,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 220,
+              "y": 239.5,
+              "timestamp": 1772497895196,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 219.5,
+              "y": 238,
+              "timestamp": 1772497895203,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 218.5,
+              "y": 237,
+              "timestamp": 1772497895211,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 218.5,
+              "y": 235.5,
+              "timestamp": 1772497895220,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 218,
+              "y": 234,
+              "timestamp": 1772497895229,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 217.5,
+              "y": 232,
+              "timestamp": 1772497895236,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 216.5,
+              "y": 230,
+              "timestamp": 1772497895244,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 216,
+              "y": 227.5,
+              "timestamp": 1772497895249,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 216,
+              "y": 225.5,
+              "timestamp": 1772497895257,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 215,
+              "y": 224,
+              "timestamp": 1772497895271,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 215,
+              "y": 223,
+              "timestamp": 1772497895277,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214.5,
+              "y": 222,
+              "timestamp": 1772497895283,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214.5,
+              "y": 221.5,
+              "timestamp": 1772497895289,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214.5,
+              "y": 221,
+              "timestamp": 1772497895297,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214.5,
+              "y": 220.5,
+              "timestamp": 1772497895306,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214,
+              "y": 220.5,
+              "timestamp": 1772497895311,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214,
+              "y": 220,
+              "timestamp": 1772497895319,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214,
+              "y": 219.5,
+              "timestamp": 1772497895344,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214,
+              "y": 219,
+              "timestamp": 1772497895375,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 214,
+              "y": 218.5,
+              "timestamp": 1772497895711,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 215.5,
+              "y": 217.5,
+              "timestamp": 1772497895726,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 216.5,
+              "y": 217.5,
+              "timestamp": 1772497895734,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 218,
+              "y": 217,
+              "timestamp": 1772497895740,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 218.5,
+              "y": 216.5,
+              "timestamp": 1772497895748,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 219.5,
+              "y": 216.5,
+              "timestamp": 1772497895756,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 221,
+              "y": 215.5,
+              "timestamp": 1772497895763,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 221.5,
+              "y": 215,
+              "timestamp": 1772497895772,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 223.5,
+              "y": 214.5,
+              "timestamp": 1772497895780,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 225,
+              "y": 214,
+              "timestamp": 1772497895788,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 227,
+              "y": 213,
+              "timestamp": 1772497895796,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 229.5,
+              "y": 211.5,
+              "timestamp": 1772497895804,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 231.5,
+              "y": 211,
+              "timestamp": 1772497895812,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 234,
+              "y": 210,
+              "timestamp": 1772497895820,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 236,
+              "y": 208.5,
+              "timestamp": 1772497895829,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 238.5,
+              "y": 208,
+              "timestamp": 1772497895835,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 241.5,
+              "y": 207,
+              "timestamp": 1772497895843,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 243.5,
+              "y": 206.5,
+              "timestamp": 1772497895850,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 245.5,
+              "y": 205.5,
+              "timestamp": 1772497895858,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 248,
+              "y": 205,
+              "timestamp": 1772497895866,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 251,
+              "y": 203.5,
+              "timestamp": 1772497895874,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 253.5,
+              "y": 202.5,
+              "timestamp": 1772497895882,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 254.5,
+              "y": 202.5,
+              "timestamp": 1772497895895,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 257,
+              "y": 201,
+              "timestamp": 1772497895901,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 258,
+              "y": 201,
+              "timestamp": 1772497895907,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 259.5,
+              "y": 200.5,
+              "timestamp": 1772497895913,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 261.5,
+              "y": 199,
+              "timestamp": 1772497895920,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 264,
+              "y": 198,
+              "timestamp": 1772497895931,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 265.5,
+              "y": 197.5,
+              "timestamp": 1772497895937,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 268.5,
+              "y": 196,
+              "timestamp": 1772497895944,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 269.5,
+              "y": 196,
+              "timestamp": 1772497895952,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 271,
+              "y": 195,
+              "timestamp": 1772497895957,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 273.5,
+              "y": 194.5,
+              "timestamp": 1772497895966,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 274,
+              "y": 194,
+              "timestamp": 1772497895973,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 275,
+              "y": 193.5,
+              "timestamp": 1772497895982,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 275.5,
+              "y": 193.5,
+              "timestamp": 1772497895990,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 276.5,
+              "y": 192.5,
+              "timestamp": 1772497895998,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 277.5,
+              "y": 192,
+              "timestamp": 1772497896006,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 278,
+              "y": 191.5,
+              "timestamp": 1772497896014,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 279.5,
+              "y": 191.5,
+              "timestamp": 1772497896022,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 280.5,
+              "y": 191,
+              "timestamp": 1772497896028,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 282,
+              "y": 190,
+              "timestamp": 1772497896036,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 284,
+              "y": 189.5,
+              "timestamp": 1772497896043,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 285.5,
+              "y": 188.5,
+              "timestamp": 1772497896052,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 288,
+              "y": 188,
+              "timestamp": 1772497896060,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 288.5,
+              "y": 187.5,
+              "timestamp": 1772497896067,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 290.5,
+              "y": 187,
+              "timestamp": 1772497896075,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 291,
+              "y": 187,
+              "timestamp": 1772497896089,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 291.5,
+              "y": 186,
+              "timestamp": 1772497896095,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 293.5,
+              "y": 185.5,
+              "timestamp": 1772497896101,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 294,
+              "y": 185,
+              "timestamp": 1772497896108,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 295,
+              "y": 184.5,
+              "timestamp": 1772497896114,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 296.5,
+              "y": 183.5,
+              "timestamp": 1772497896125,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 298,
+              "y": 183.5,
+              "timestamp": 1772497896132,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 298.5,
+              "y": 183,
+              "timestamp": 1772497896138,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 299,
+              "y": 182.5,
+              "timestamp": 1772497896146,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 300,
+              "y": 182.5,
+              "timestamp": 1772497896154,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 301,
+              "y": 182,
+              "timestamp": 1772497896161,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 301.5,
+              "y": 181.5,
+              "timestamp": 1772497896170,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 302.5,
+              "y": 181.5,
+              "timestamp": 1772497896175,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 303.5,
+              "y": 181,
+              "timestamp": 1772497896192,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 304.5,
+              "y": 181,
+              "timestamp": 1772497896199,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 304.5,
+              "y": 180.5,
+              "timestamp": 1772497896207,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 305,
+              "y": 180.5,
+              "timestamp": 1772497896215,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 305.5,
+              "y": 179.5,
+              "timestamp": 1772497896224,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 306,
+              "y": 179.5,
+              "timestamp": 1772497896241,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 306.5,
+              "y": 179,
+              "timestamp": 1772497896247,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 307,
+              "y": 179,
+              "timestamp": 1772497896265,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 307,
+              "y": 178.5,
+              "timestamp": 1772497896271,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 307.5,
+              "y": 178.5,
+              "timestamp": 1772497896278,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 308.5,
+              "y": 178.5,
+              "timestamp": 1772497896295,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 309,
+              "y": 178,
+              "timestamp": 1772497896313,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 309.5,
+              "y": 178,
+              "timestamp": 1772497896324,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 309.5,
+              "y": 177.5,
+              "timestamp": 1772497896333,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 310,
+              "y": 177.5,
+              "timestamp": 1772497896339,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 310.5,
+              "y": 177.5,
+              "timestamp": 1772497896347,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 311,
+              "y": 177.5,
+              "timestamp": 1772497896355,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 311.5,
+              "y": 177,
+              "timestamp": 1772497896364,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 312,
+              "y": 177,
+              "timestamp": 1772497896371,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 312,
+              "y": 176.5,
+              "timestamp": 1772497896388,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 313,
+              "y": 176.5,
+              "timestamp": 1772497896393,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 313.5,
+              "y": 176.5,
+              "timestamp": 1772497896410,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 314,
+              "y": 175.5,
+              "timestamp": 1772497896417,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 314.5,
+              "y": 175.5,
+              "timestamp": 1772497896434,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 314.5,
+              "y": 175,
+              "timestamp": 1772497896453,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 315,
+              "y": 175,
+              "timestamp": 1772497896459,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 315.5,
+              "y": 175,
+              "timestamp": 1772497896550,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 316,
+              "y": 175,
+              "timestamp": 1772497896653,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 317,
+              "y": 175,
+              "timestamp": 1772497896660,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 317.5,
+              "y": 176,
+              "timestamp": 1772497896668,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 318,
+              "y": 176.5,
+              "timestamp": 1772497896676,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 318.5,
+              "y": 177,
+              "timestamp": 1772497896683,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 319,
+              "y": 177,
+              "timestamp": 1772497896689,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 320.5,
+              "y": 178,
+              "timestamp": 1772497896700,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 320.5,
+              "y": 179,
+              "timestamp": 1772497896705,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 321.5,
+              "y": 180,
+              "timestamp": 1772497896719,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 324,
+              "y": 181.5,
+              "timestamp": 1772497896725,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 327,
+              "y": 185,
+              "timestamp": 1772497896732,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329.5,
+              "y": 186.5,
+              "timestamp": 1772497896737,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333,
+              "y": 190,
+              "timestamp": 1772497896746,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 336,
+              "y": 191.5,
+              "timestamp": 1772497896751,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 338.5,
+              "y": 194,
+              "timestamp": 1772497896760,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 342,
+              "y": 195.5,
+              "timestamp": 1772497896767,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 344,
+              "y": 197.5,
+              "timestamp": 1772497896775,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347.5,
+              "y": 200.5,
+              "timestamp": 1772497896783,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 350,
+              "y": 202,
+              "timestamp": 1772497896791,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 351,
+              "y": 202.5,
+              "timestamp": 1772497896802,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 353.5,
+              "y": 204,
+              "timestamp": 1772497896807,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 355,
+              "y": 205.5,
+              "timestamp": 1772497896815,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 356,
+              "y": 206,
+              "timestamp": 1772497896824,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 357,
+              "y": 206.5,
+              "timestamp": 1772497896829,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 357.5,
+              "y": 206.5,
+              "timestamp": 1772497896838,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 358,
+              "y": 207.5,
+              "timestamp": 1772497896845,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 358.5,
+              "y": 208,
+              "timestamp": 1772497896853,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 359,
+              "y": 208.5,
+              "timestamp": 1772497896861,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 359.5,
+              "y": 208.5,
+              "timestamp": 1772497896869,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 361.5,
+              "y": 210.5,
+              "timestamp": 1772497896883,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 363,
+              "y": 211,
+              "timestamp": 1772497896889,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364.5,
+              "y": 212,
+              "timestamp": 1772497896895,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366,
+              "y": 213,
+              "timestamp": 1772497896901,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366.5,
+              "y": 214,
+              "timestamp": 1772497896908,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368.5,
+              "y": 215,
+              "timestamp": 1772497896916,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 369,
+              "y": 215.5,
+              "timestamp": 1772497896924,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 369.5,
+              "y": 216,
+              "timestamp": 1772497896937,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370,
+              "y": 216,
+              "timestamp": 1772497896943,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370.5,
+              "y": 217,
+              "timestamp": 1772497896950,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371,
+              "y": 217.5,
+              "timestamp": 1772497896968,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371.5,
+              "y": 217.5,
+              "timestamp": 1772497896974,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 372.5,
+              "y": 218,
+              "timestamp": 1772497896980,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 373.5,
+              "y": 218.5,
+              "timestamp": 1772497896986,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 373.5,
+              "y": 219,
+              "timestamp": 1772497896994,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 375,
+              "y": 219.5,
+              "timestamp": 1772497897002,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 375.5,
+              "y": 220.5,
+              "timestamp": 1772497897010,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 376,
+              "y": 221,
+              "timestamp": 1772497897018,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 376.5,
+              "y": 221,
+              "timestamp": 1772497897028,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 377,
+              "y": 221.5,
+              "timestamp": 1772497897034,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378.5,
+              "y": 222,
+              "timestamp": 1772497897041,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 379,
+              "y": 222.5,
+              "timestamp": 1772497897047,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 379.5,
+              "y": 223,
+              "timestamp": 1772497897056,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380,
+              "y": 224,
+              "timestamp": 1772497897063,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380.5,
+              "y": 224,
+              "timestamp": 1772497897077,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380.5,
+              "y": 224.5,
+              "timestamp": 1772497897083,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 381,
+              "y": 225,
+              "timestamp": 1772497897089,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 382.5,
+              "y": 225,
+              "timestamp": 1772497897096,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 383,
+              "y": 226.5,
+              "timestamp": 1772497897104,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 385,
+              "y": 227.5,
+              "timestamp": 1772497897119,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 385.5,
+              "y": 228,
+              "timestamp": 1772497897131,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 386.5,
+              "y": 228.5,
+              "timestamp": 1772497897137,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 388,
+              "y": 230,
+              "timestamp": 1772497897143,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 389.5,
+              "y": 231.5,
+              "timestamp": 1772497897149,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 391,
+              "y": 232,
+              "timestamp": 1772497897157,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392.5,
+              "y": 233,
+              "timestamp": 1772497897165,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 393,
+              "y": 233.5,
+              "timestamp": 1772497897173,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 393.5,
+              "y": 234,
+              "timestamp": 1772497897180,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394,
+              "y": 234.5,
+              "timestamp": 1772497897187,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394.5,
+              "y": 235,
+              "timestamp": 1772497897195,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 396,
+              "y": 236,
+              "timestamp": 1772497897203,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 396.5,
+              "y": 236.5,
+              "timestamp": 1772497897211,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 397.5,
+              "y": 237,
+              "timestamp": 1772497897220,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 399,
+              "y": 238.5,
+              "timestamp": 1772497897228,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 400.5,
+              "y": 239,
+              "timestamp": 1772497897236,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 401,
+              "y": 239.5,
+              "timestamp": 1772497897244,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 402.5,
+              "y": 240.5,
+              "timestamp": 1772497897249,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 403,
+              "y": 240.5,
+              "timestamp": 1772497897257,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 403.5,
+              "y": 241,
+              "timestamp": 1772497897265,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404,
+              "y": 241,
+              "timestamp": 1772497897274,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404,
+              "y": 241.5,
+              "timestamp": 1772497897282,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404.5,
+              "y": 242,
+              "timestamp": 1772497897289,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 406,
+              "y": 242.5,
+              "timestamp": 1772497897297,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 407,
+              "y": 243.5,
+              "timestamp": 1772497897305,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 407.5,
+              "y": 244,
+              "timestamp": 1772497897319,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 409,
+              "y": 245,
+              "timestamp": 1772497897325,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 410.5,
+              "y": 246,
+              "timestamp": 1772497897331,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 411,
+              "y": 246,
+              "timestamp": 1772497897337,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 411.5,
+              "y": 246.5,
+              "timestamp": 1772497897343,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 412,
+              "y": 247,
+              "timestamp": 1772497897352,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 412.5,
+              "y": 247,
+              "timestamp": 1772497897359,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 413,
+              "y": 247,
+              "timestamp": 1772497897367,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 414.5,
+              "y": 247.5,
+              "timestamp": 1772497897375,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 414.5,
+              "y": 248,
+              "timestamp": 1772497897383,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 415,
+              "y": 248,
+              "timestamp": 1772497897391,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 415,
+              "y": 248.5,
+              "timestamp": 1772497897398,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 415.5,
+              "y": 248.5,
+              "timestamp": 1772497897405,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416,
+              "y": 248.5,
+              "timestamp": 1772497897437,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416,
+              "y": 249.5,
+              "timestamp": 1772497897462,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416.5,
+              "y": 249.5,
+              "timestamp": 1772497897470,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 417.5,
+              "y": 250,
+              "timestamp": 1772497897501,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418,
+              "y": 250,
+              "timestamp": 1772497897532,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418.5,
+              "y": 250,
+              "timestamp": 1772497897570,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418.5,
+              "y": 250.5,
+              "timestamp": 1772497897578,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 419,
+              "y": 250.5,
+              "timestamp": 1772497897598,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 419,
+              "y": 251,
+              "timestamp": 1772497897789,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418.5,
+              "y": 251.5,
+              "timestamp": 1772497897796,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418,
+              "y": 252,
+              "timestamp": 1772497897804,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 417,
+              "y": 252.5,
+              "timestamp": 1772497897812,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416.5,
+              "y": 253.5,
+              "timestamp": 1772497897820,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416.5,
+              "y": 254,
+              "timestamp": 1772497897828,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 415.5,
+              "y": 255,
+              "timestamp": 1772497897834,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 414.5,
+              "y": 256.5,
+              "timestamp": 1772497897842,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 414,
+              "y": 258,
+              "timestamp": 1772497897851,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 412.5,
+              "y": 260,
+              "timestamp": 1772497897857,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 411,
+              "y": 262.5,
+              "timestamp": 1772497897866,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 410.5,
+              "y": 263.5,
+              "timestamp": 1772497897873,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 409,
+              "y": 265,
+              "timestamp": 1772497897882,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 408.5,
+              "y": 266.5,
+              "timestamp": 1772497897890,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 407.5,
+              "y": 267,
+              "timestamp": 1772497897898,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 407,
+              "y": 269,
+              "timestamp": 1772497897903,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 406.5,
+              "y": 270.5,
+              "timestamp": 1772497897911,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 405,
+              "y": 272,
+              "timestamp": 1772497897925,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404,
+              "y": 274,
+              "timestamp": 1772497897931,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 403.5,
+              "y": 276,
+              "timestamp": 1772497897937,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 402,
+              "y": 278.5,
+              "timestamp": 1772497897943,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 400.5,
+              "y": 280,
+              "timestamp": 1772497897952,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 399,
+              "y": 282,
+              "timestamp": 1772497897960,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 397.5,
+              "y": 285.5,
+              "timestamp": 1772497897973,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 396.5,
+              "y": 287.5,
+              "timestamp": 1772497897979,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 396,
+              "y": 289,
+              "timestamp": 1772497897985,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 395.5,
+              "y": 290.5,
+              "timestamp": 1772497897992,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394,
+              "y": 291.5,
+              "timestamp": 1772497897998,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394,
+              "y": 293,
+              "timestamp": 1772497898005,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392.5,
+              "y": 294.5,
+              "timestamp": 1772497898014,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392,
+              "y": 296.5,
+              "timestamp": 1772497898022,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 391,
+              "y": 297,
+              "timestamp": 1772497898030,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 390,
+              "y": 299,
+              "timestamp": 1772497898037,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 389,
+              "y": 300.5,
+              "timestamp": 1772497898045,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 388,
+              "y": 302,
+              "timestamp": 1772497898053,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 388,
+              "y": 303,
+              "timestamp": 1772497898059,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 387,
+              "y": 304,
+              "timestamp": 1772497898068,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 386.5,
+              "y": 305,
+              "timestamp": 1772497898075,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 386,
+              "y": 306.5,
+              "timestamp": 1772497898083,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 385,
+              "y": 307.5,
+              "timestamp": 1772497898091,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 384.5,
+              "y": 309,
+              "timestamp": 1772497898100,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 384,
+              "y": 310.5,
+              "timestamp": 1772497898107,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 383.5,
+              "y": 311,
+              "timestamp": 1772497898116,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 382.5,
+              "y": 312.5,
+              "timestamp": 1772497898121,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 382,
+              "y": 313.5,
+              "timestamp": 1772497898131,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 381,
+              "y": 316,
+              "timestamp": 1772497898137,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 381,
+              "y": 316.5,
+              "timestamp": 1772497898145,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380.5,
+              "y": 317.5,
+              "timestamp": 1772497898154,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380,
+              "y": 319,
+              "timestamp": 1772497898161,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 379,
+              "y": 320.5,
+              "timestamp": 1772497898170,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 379,
+              "y": 321.5,
+              "timestamp": 1772497898178,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378.5,
+              "y": 324,
+              "timestamp": 1772497898186,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378,
+              "y": 325.5,
+              "timestamp": 1772497898191,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 377.5,
+              "y": 326,
+              "timestamp": 1772497898199,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 376,
+              "y": 328,
+              "timestamp": 1772497898207,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 376,
+              "y": 328.5,
+              "timestamp": 1772497898216,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 374.5,
+              "y": 329.5,
+              "timestamp": 1772497898228,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 374,
+              "y": 331,
+              "timestamp": 1772497898234,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 373.5,
+              "y": 331.5,
+              "timestamp": 1772497898240,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 373,
+              "y": 333,
+              "timestamp": 1772497898247,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 373,
+              "y": 334,
+              "timestamp": 1772497898255,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 372,
+              "y": 334.5,
+              "timestamp": 1772497898262,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371.5,
+              "y": 336,
+              "timestamp": 1772497898269,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371.5,
+              "y": 337,
+              "timestamp": 1772497898277,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371,
+              "y": 338,
+              "timestamp": 1772497898285,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370.5,
+              "y": 338.5,
+              "timestamp": 1772497898294,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370.5,
+              "y": 339,
+              "timestamp": 1772497898301,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370,
+              "y": 339.5,
+              "timestamp": 1772497898309,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370,
+              "y": 340,
+              "timestamp": 1772497898317,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 369.5,
+              "y": 340.5,
+              "timestamp": 1772497898325,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 369.5,
+              "y": 342,
+              "timestamp": 1772497898335,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368.5,
+              "y": 342.5,
+              "timestamp": 1772497898340,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368.5,
+              "y": 343,
+              "timestamp": 1772497898347,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368,
+              "y": 344,
+              "timestamp": 1772497898361,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368,
+              "y": 345,
+              "timestamp": 1772497898367,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367.5,
+              "y": 345.5,
+              "timestamp": 1772497898373,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367.5,
+              "y": 346.5,
+              "timestamp": 1772497898379,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367,
+              "y": 346.5,
+              "timestamp": 1772497898387,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367,
+              "y": 348,
+              "timestamp": 1772497898396,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366.5,
+              "y": 348.5,
+              "timestamp": 1772497898403,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366.5,
+              "y": 349.5,
+              "timestamp": 1772497898410,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366,
+              "y": 350,
+              "timestamp": 1772497898417,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 365,
+              "y": 351.5,
+              "timestamp": 1772497898428,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364.5,
+              "y": 352,
+              "timestamp": 1772497898434,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364.5,
+              "y": 352.5,
+              "timestamp": 1772497898444,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364,
+              "y": 353,
+              "timestamp": 1772497898449,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364,
+              "y": 353.5,
+              "timestamp": 1772497898457,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 363.5,
+              "y": 354,
+              "timestamp": 1772497898466,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 363.5,
+              "y": 355,
+              "timestamp": 1772497898471,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 363,
+              "y": 355.5,
+              "timestamp": 1772497898480,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362.5,
+              "y": 356,
+              "timestamp": 1772497898501,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362.5,
+              "y": 356.5,
+              "timestamp": 1772497898520,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362,
+              "y": 356.5,
+              "timestamp": 1772497898536,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362,
+              "y": 357,
+              "timestamp": 1772497898545,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362,
+              "y": 357.5,
+              "timestamp": 1772497898561,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 361,
+              "y": 358,
+              "timestamp": 1772497898567,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 361,
+              "y": 359,
+              "timestamp": 1772497898586,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360.5,
+              "y": 359,
+              "timestamp": 1772497898592,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360.5,
+              "y": 359.5,
+              "timestamp": 1772497898598,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360.5,
+              "y": 360,
+              "timestamp": 1772497898620,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360,
+              "y": 360,
+              "timestamp": 1772497898628,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360,
+              "y": 360.5,
+              "timestamp": 1772497898677,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 359.5,
+              "y": 360.5,
+              "timestamp": 1772497898762,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 359,
+              "y": 360.5,
+              "timestamp": 1772497898800,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 358.5,
+              "y": 360.5,
+              "timestamp": 1772497898807,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 358,
+              "y": 360,
+              "timestamp": 1772497898815,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 357.5,
+              "y": 359.5,
+              "timestamp": 1772497898828,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 356.5,
+              "y": 358.5,
+              "timestamp": 1772497898834,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 355.5,
+              "y": 358,
+              "timestamp": 1772497898840,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 354,
+              "y": 356.5,
+              "timestamp": 1772497898849,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 352.5,
+              "y": 355,
+              "timestamp": 1772497898853,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 350.5,
+              "y": 353.5,
+              "timestamp": 1772497898862,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347,
+              "y": 352,
+              "timestamp": 1772497898869,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 345,
+              "y": 351.5,
+              "timestamp": 1772497898877,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 340.5,
+              "y": 349,
+              "timestamp": 1772497898885,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 338.5,
+              "y": 348,
+              "timestamp": 1772497898893,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 335.5,
+              "y": 347.5,
+              "timestamp": 1772497898901,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332.5,
+              "y": 346.5,
+              "timestamp": 1772497898907,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 331.5,
+              "y": 346,
+              "timestamp": 1772497898916,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330.5,
+              "y": 345.5,
+              "timestamp": 1772497898924,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329,
+              "y": 344.5,
+              "timestamp": 1772497898932,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 327,
+              "y": 344,
+              "timestamp": 1772497898939,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 325.5,
+              "y": 344,
+              "timestamp": 1772497898948,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 323.5,
+              "y": 342.5,
+              "timestamp": 1772497898955,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 322,
+              "y": 342.5,
+              "timestamp": 1772497898964,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 320.5,
+              "y": 342,
+              "timestamp": 1772497898972,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 319.5,
+              "y": 341,
+              "timestamp": 1772497898979,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 317,
+              "y": 340.5,
+              "timestamp": 1772497898986,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 316,
+              "y": 339.5,
+              "timestamp": 1772497898994,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 314.5,
+              "y": 339,
+              "timestamp": 1772497899001,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 312.5,
+              "y": 339,
+              "timestamp": 1772497899016,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 311,
+              "y": 338.5,
+              "timestamp": 1772497899022,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 308.5,
+              "y": 337.5,
+              "timestamp": 1772497899028,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 306.5,
+              "y": 337.5,
+              "timestamp": 1772497899034,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 304.5,
+              "y": 336,
+              "timestamp": 1772497899042,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 301.5,
+              "y": 336,
+              "timestamp": 1772497899049,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 299,
+              "y": 335.5,
+              "timestamp": 1772497899058,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 298,
+              "y": 334.5,
+              "timestamp": 1772497899064,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 295.5,
+              "y": 334.5,
+              "timestamp": 1772497899071,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 293.5,
+              "y": 334,
+              "timestamp": 1772497899079,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 291.5,
+              "y": 333,
+              "timestamp": 1772497899087,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 289,
+              "y": 332.5,
+              "timestamp": 1772497899095,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 287.5,
+              "y": 332,
+              "timestamp": 1772497899103,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 286.5,
+              "y": 331,
+              "timestamp": 1772497899112,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 285,
+              "y": 330.5,
+              "timestamp": 1772497899119,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 284.5,
+              "y": 330,
+              "timestamp": 1772497899131,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 284,
+              "y": 330,
+              "timestamp": 1772497899137,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 283.5,
+              "y": 329.5,
+              "timestamp": 1772497899143,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 282.5,
+              "y": 329.5,
+              "timestamp": 1772497899151,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 282,
+              "y": 329.5,
+              "timestamp": 1772497899157,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 281.5,
+              "y": 328.5,
+              "timestamp": 1772497899166,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 281,
+              "y": 328.5,
+              "timestamp": 1772497899173,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 280.5,
+              "y": 328.5,
+              "timestamp": 1772497899181,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 279,
+              "y": 328,
+              "timestamp": 1772497899190,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 278,
+              "y": 327.5,
+              "timestamp": 1772497899204,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 276.5,
+              "y": 327.5,
+              "timestamp": 1772497899211,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 275,
+              "y": 326.5,
+              "timestamp": 1772497899219,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 274,
+              "y": 326,
+              "timestamp": 1772497899228,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 272.5,
+              "y": 325.5,
+              "timestamp": 1772497899236,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 271,
+              "y": 325.5,
+              "timestamp": 1772497899244,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 270.5,
+              "y": 325,
+              "timestamp": 1772497899251,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 269.5,
+              "y": 324,
+              "timestamp": 1772497899260,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 268,
+              "y": 323.5,
+              "timestamp": 1772497899267,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 267.5,
+              "y": 323.5,
+              "timestamp": 1772497899274,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 266,
+              "y": 323,
+              "timestamp": 1772497899281,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 265,
+              "y": 322,
+              "timestamp": 1772497899289,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 263.5,
+              "y": 321.5,
+              "timestamp": 1772497899297,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 262,
+              "y": 321.5,
+              "timestamp": 1772497899305,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 260,
+              "y": 321,
+              "timestamp": 1772497899313,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 258.5,
+              "y": 320,
+              "timestamp": 1772497899325,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 257.5,
+              "y": 320,
+              "timestamp": 1772497899331,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 256.5,
+              "y": 319.5,
+              "timestamp": 1772497899337,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 256,
+              "y": 319.5,
+              "timestamp": 1772497899344,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 255.5,
+              "y": 319.5,
+              "timestamp": 1772497899361,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 255,
+              "y": 319.5,
+              "timestamp": 1772497899367,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 254.5,
+              "y": 319.5,
+              "timestamp": 1772497899375,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 254,
+              "y": 319.5,
+              "timestamp": 1772497899383,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 253.5,
+              "y": 319,
+              "timestamp": 1772497899391,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 252.5,
+              "y": 319,
+              "timestamp": 1772497899399,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 251.5,
+              "y": 319,
+              "timestamp": 1772497899408,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 251,
+              "y": 319,
+              "timestamp": 1772497899416,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 250,
+              "y": 319,
+              "timestamp": 1772497899422,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 248.5,
+              "y": 319,
+              "timestamp": 1772497899429,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 248,
+              "y": 318.5,
+              "timestamp": 1772497899438,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 247.5,
+              "y": 318.5,
+              "timestamp": 1772497899446,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 247,
+              "y": 318.5,
+              "timestamp": 1772497899464,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 246,
+              "y": 318.5,
+              "timestamp": 1772497899470,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 245.5,
+              "y": 318.5,
+              "timestamp": 1772497899488,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 245,
+              "y": 318.5,
+              "timestamp": 1772497899579,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            }
+          ],
+          "inputType": "mouse",
+          "pointerType": "mouse",
+          "startTime": "2026-03-03T00:31:34.826Z",
+          "endTime": "2026-03-03T00:31:39.804Z",
+          "color": "#000000",
+          "size": 12,
+          "opacity": 1,
+          "tool": "pen",
+          "interStrokeGap": 0,
+          "duration": 4753,
+          "velocity": [
+            0,
+            0.00980392156862745,
+            0.1717960677340692,
+            0.4249182927993987,
+            0.6009252125773316,
+            0.22587697572631282,
+            0.5890150893739515,
+            0.5929270612815711,
+            0.39528470752104744,
+            0.5439837932759934,
+            0.35136418446315326,
+            0.375,
+            0.2576941016011038,
+            0.3309140858763872,
+            0.5068968775248516,
+            0.4166666666666667,
+            0.384654629081036,
+            0.125,
+            0.31868871959954903,
+            0.15971914124998499,
+            0.31622776601683794,
+            0.11785113019775793,
+            0.4249182927993987,
+            0.5270462766947299,
+            0.5121969142940492,
+            0.29450754468697576,
+            0.42309850588132825,
+            0.125,
+            0.35714285714285715,
+            0.15713484026367724,
+            0.36421567954234174,
+            0.16666666666666666,
+            0.22534695471649932,
+            0.1875,
+            0.12422599874998833,
+            0.1875,
+            0.22587697572631282,
+            0.1767766952966369,
+            0.16666666666666666,
+            0.17568209223157663,
+            0.29450754468697576,
+            0.2795084971874737,
+            0.5099019513592784,
+            0.25,
+            0.12876968840942818,
+            0.16666666666666666,
+            0.18633899812498247,
+            0.08333333333333333,
+            0.0625,
+            0.05555555555555555,
+            0.1,
+            0.0625,
+            0.02,
+            0.016129032258064516,
+            0.001488095238095238,
+            0.1201850425154663,
+            0.125,
+            0.26352313834736496,
+            0.08838834764831845,
+            0.125,
+            0.25753937681885636,
+            0.07856742013183862,
+            0.2576941016011038,
+            0.19764235376052372,
+            0.2795084971874737,
+            0.3644344934278313,
+            0.2576941016011038,
+            0.3365728004459065,
+            0.2777777777777778,
+            0.4249182927993987,
+            0.39528470752104744,
+            0.29450754468697576,
+            0.2795084971874737,
+            0.31868871959954903,
+            0.4192627457812106,
+            0.3365728004459065,
+            0.07692307692307693,
+            0.4859126579037751,
+            0.16666666666666666,
+            0.26352313834736496,
+            0.35714285714285715,
+            0.2447802185061138,
+            0.26352313834736496,
+            0.47915742374995496,
+            0.125,
+            0.3605551275463989,
+            0.28327886186626583,
+            0.10101525445522108,
+            0.12422599874998833,
+            0.0625,
+            0.1767766952966369,
+            0.13975424859373686,
+            0.08838834764831845,
+            0.1875,
+            0.18633899812498247,
+            0.22534695471649932,
+            0.29450754468697576,
+            0.20030840419244383,
+            0.31868871959954903,
+            0.10101525445522108,
+            0.2576941016011038,
+            0.03571428571428571,
+            0.18633899812498247,
+            0.3435921354681384,
+            0.10101525445522108,
+            0.18633899812498247,
+            0.16388869433927222,
+            0.21428571428571427,
+            0.11785113019775793,
+            0.08838834764831845,
+            0.125,
+            0.15971914124998499,
+            0.07856742013183862,
+            0.2,
+            0.06576670522058205,
+            0.14285714285714285,
+            0.0625,
+            0.0625,
+            0.12422599874998833,
+            0.029411764705882353,
+            0.11785113019775793,
+            0.027777777777777776,
+            0.08333333333333333,
+            0.07142857142857142,
+            0.058823529411764705,
+            0.03928371006591931,
+            0.045454545454545456,
+            0.05555555555555555,
+            0.08333333333333333,
+            0.0625,
+            0.0625,
+            0.07856742013183862,
+            0.07142857142857142,
+            0.029411764705882353,
+            0.2,
+            0.029411764705882353,
+            0.15971914124998499,
+            0.029411764705882353,
+            0.02631578947368421,
+            0.08333333333333333,
+            0.005494505494505495,
+            0.0048543689320388345,
+            0.14285714285714285,
+            0.13975424859373686,
+            0.08838834764831845,
+            0.10101525445522108,
+            0.08333333333333333,
+            0.16388869433927222,
+            0.2,
+            0.10101525445522108,
+            0.4859126579037751,
+            0.6585388898066348,
+            0.5830951894845301,
+            0.5499719409228703,
+            0.6708203932499369,
+            0.3928371006591931,
+            0.5439837932759934,
+            0.3535533905932738,
+            0.5762215285808054,
+            0.3644344934278313,
+            0.10163945352271772,
+            0.5830951894845301,
+            0.2651650429449553,
+            0.12422599874998833,
+            0.223606797749979,
+            0.05555555555555555,
+            0.15971914124998499,
+            0.08838834764831845,
+            0.08838834764831845,
+            0.0625,
+            0.20203050891044216,
+            0.26352313834736496,
+            0.3004626062886658,
+            0.3004626062886658,
+            0.15971914124998499,
+            0.2795084971874737,
+            0.08838834764831845,
+            0.05439282932204212,
+            0.08333333333333333,
+            0.15971914124998499,
+            0.03928371006591931,
+            0.08333333333333333,
+            0.18633899812498247,
+            0.18633899812498247,
+            0.0625,
+            0.19764235376052372,
+            0.13975424859373686,
+            0.08838834764831845,
+            0.05,
+            0.11785113019775793,
+            0.22587697572631282,
+            0.11785113019775793,
+            0.07856742013183862,
+            0.15971914124998499,
+            0.03571428571428571,
+            0.08333333333333333,
+            0.11785113019775793,
+            0.21428571428571427,
+            0.19764235376052372,
+            0.14907119849998599,
+            0.05892556509887897,
+            0.18633899812498247,
+            0.35355339059327373,
+            0.35355339059327373,
+            0.19764235376052372,
+            0.22534695471649932,
+            0.08838834764831845,
+            0.10101525445522108,
+            0.10101525445522108,
+            0.08838834764831845,
+            0.22534695471649932,
+            0.08838834764831845,
+            0.12422599874998833,
+            0.2651650429449553,
+            0.19764235376052372,
+            0.08838834764831845,
+            0.3605551275463989,
+            0.0625,
+            0.08838834764831845,
+            0.05555555555555555,
+            0.0625,
+            0.10101525445522108,
+            0.19764235376052372,
+            0.1767766952966369,
+            0.05050762722761054,
+            0.3004626062886658,
+            0.3004626062886658,
+            0.08333333333333333,
+            0.11785113019775793,
+            0.07856742013183862,
+            0.07142857142857142,
+            0.0625,
+            0.19764235376052372,
+            0.0625,
+            0.0625,
+            0.07142857142857142,
+            0.07142857142857142,
+            0.015625,
+            0.04,
+            0.0625,
+            0.03606561254031919,
+            0.016129032258064516,
+            0.013157894736842105,
+            0.0625,
+            0.025,
+            0.002617801047120419,
+            0.10101525445522108,
+            0.08838834764831845,
+            0.13975424859373686,
+            0.13975424859373686,
+            0.0625,
+            0.23570226039551587,
+            0.22534695471649932,
+            0.17568209223157663,
+            0.4166666666666667,
+            0.32394177193585005,
+            0.15971914124998499,
+            0.2357022603955158,
+            0.19764235376052372,
+            0.13975424859373686,
+            0.41231056256176607,
+            0.19764235376052372,
+            0.1515228816828316,
+            0.37267799624996495,
+            0.3435921354681384,
+            0.4859126579037751,
+            0.2357022603955158,
+            0.3125,
+            0.29291435022553497,
+            0.37267799624996495,
+            0.26352313834736496,
+            0.22587697572631282,
+            0.3004626062886658,
+            0.21428571428571427,
+            0.2357022603955158,
+            0.2576941016011038,
+            0.13975424859373686,
+            0.31943828249996997,
+            0.22534695471649932,
+            0.22534695471649932,
+            0.16666666666666666,
+            0.15713484026367724,
+            0.15971914124998499,
+            0.19764235376052372,
+            0.1767766952966369,
+            0.17568209223157663,
+            0.22587697572631282,
+            0.07856742013183862,
+            0.3605551275463989,
+            0.1118033988749895,
+            0.44876373392787533,
+            0.0625,
+            0.12422599874998833,
+            0.22587697572631282,
+            0.20030840419244383,
+            0.125,
+            0.31868871959954903,
+            0.31622776601683794,
+            0.08838834764831845,
+            0.3125,
+            0.05555555555555555,
+            0.1502313031443329,
+            0.26352313834736496,
+            0.11785113019775793,
+            0.22587697572631282,
+            0.125,
+            0.15971914124998499,
+            0.22587697572631282,
+            0.125,
+            0.13975424859373686,
+            0.07856742013183862,
+            0.07142857142857142,
+            0.08838834764831845,
+            0.0625,
+            0.08838834764831845,
+            0.15,
+            0.223606797749979,
+            0.07142857142857142,
+            0.07985957062499249,
+            0.16666666666666666,
+            0.11785113019775793,
+            0.16666666666666666,
+            0.0625,
+            0.16666666666666666,
+            0.10101525445522108,
+            0.14285714285714285,
+            0.10101525445522108,
+            0.16388869433927222,
+            0.11785113019775793,
+            0.05,
+            0.1414213562373095,
+            0.0625,
+            0.07856742013183862,
+            0.2,
+            0.07856742013183862,
+            0.033671751485073696,
+            0.02631578947368421,
+            0.03125,
+            0.05555555555555555,
+            0.03125,
+            0.18633899812498247,
+            0.05263157894736842,
+            0.08333333333333333,
+            0.08333333333333333,
+            0.022727272727272728,
+            0.0625,
+            0.01020408163265306,
+            0.0058823529411764705,
+            0.013157894736842105,
+            0.07142857142857142,
+            0.08838834764831845,
+            0.05439282932204212,
+            0.23570226039551587,
+            0.18633899812498247,
+            0.2357022603955158,
+            0.5303300858899106,
+            0.2777777777777778,
+            0.5439837932759934,
+            0.2576941016011038,
+            0.6434768838116876,
+            0.2795084971874737,
+            0.3801726581436387,
+            0.5270462766947299,
+            0.12422599874998833,
+            0.13975424859373686,
+            0.22534695471649932,
+            0.29450754468697576,
+            0.16666666666666666,
+            0.35714285714285715,
+            0.16666666666666666,
+            0.19764235376052372,
+            0.20203050891044216,
+            0.36421567954234174,
+            0.1767766952966369,
+            0.22587697572631282,
+            0.13333333333333333,
+            0.26352313834736496,
+            0.44876373392787533,
+            0.3333333333333333,
+            0.3125,
+            0.42857142857142855,
+            0.28327886186626583,
+            0.23570226039551587,
+            0.35714285714285715,
+            0.2576941016011038,
+            0.2795084971874737,
+            0.31868871959954903,
+            0.19764235376052372,
+            0.15713484026367724,
+            0.22587697572631282,
+            0.05892556509887897,
+            0.08333333333333333,
+            0.11785113019775793,
+            0.125,
+            0.08333333333333333,
+            0.12422599874998833,
+            0.07142857142857142,
+            0.0625,
+            0.17568209223157663,
+            0.07985957062499249,
+            0.21428571428571427,
+            0.22534695471649932,
+            0.12422599874998833,
+            0.19764235376052372,
+            0.1875,
+            0.10101525445522108,
+            0.15713484026367724,
+            0.22587697572631282,
+            0.07142857142857142,
+            0.22587697572631282,
+            0.1767766952966369,
+            0.19764235376052372,
+            0.1875,
+            0.2576941016011038,
+            0.1502313031443329,
+            0.16666666666666666,
+            0.18633899812498247,
+            0.07142857142857142,
+            0.029411764705882353,
+            0.08333333333333333,
+            0.0625,
+            0.0625,
+            0.08838834764831845,
+            0.125,
+            0.1111111111111111,
+            0.0625,
+            0.16666666666666666,
+            0.21428571428571427,
+            0.07856742013183862,
+            0.0625,
+            0.027777777777777776,
+            0.16666666666666666,
+            0.027777777777777776,
+            0.005494505494505495
+          ],
+          "averageVelocity": 0.1873468626832075,
+          "averagePressure": 0.5
+        },
+        {
+          "strokeId": "stroke-2",
+          "points": [
+            {
+              "x": 346,
+              "y": 276.5,
+              "timestamp": 1772497900739,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346,
+              "y": 276,
+              "timestamp": 1772497900870,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 345.5,
+              "y": 275.5,
+              "timestamp": 1772497900878,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 345,
+              "y": 274,
+              "timestamp": 1772497900887,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 343.5,
+              "y": 272,
+              "timestamp": 1772497900907,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 342,
+              "y": 268.5,
+              "timestamp": 1772497900912,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 341.5,
+              "y": 268,
+              "timestamp": 1772497900918,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 340.5,
+              "y": 267,
+              "timestamp": 1772497900924,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 340,
+              "y": 267,
+              "timestamp": 1772497900931,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 339.5,
+              "y": 265.5,
+              "timestamp": 1772497900940,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 339,
+              "y": 265,
+              "timestamp": 1772497900948,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 337.5,
+              "y": 263.5,
+              "timestamp": 1772497900955,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 337,
+              "y": 263,
+              "timestamp": 1772497900963,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 336.5,
+              "y": 262,
+              "timestamp": 1772497900971,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 336,
+              "y": 261.5,
+              "timestamp": 1772497900985,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 334.5,
+              "y": 260.5,
+              "timestamp": 1772497900991,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 334,
+              "y": 260,
+              "timestamp": 1772497901009,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333.5,
+              "y": 259.5,
+              "timestamp": 1772497901017,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333,
+              "y": 259.5,
+              "timestamp": 1772497901042,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333,
+              "y": 259,
+              "timestamp": 1772497901080,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332.5,
+              "y": 259,
+              "timestamp": 1772497901100,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332.5,
+              "y": 258.5,
+              "timestamp": 1772497901106,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332,
+              "y": 258.5,
+              "timestamp": 1772497901112,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332,
+              "y": 258,
+              "timestamp": 1772497901119,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 331.5,
+              "y": 257.5,
+              "timestamp": 1772497901130,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 331.5,
+              "y": 256.5,
+              "timestamp": 1772497901152,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330.5,
+              "y": 256.5,
+              "timestamp": 1772497901157,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330.5,
+              "y": 256,
+              "timestamp": 1772497901174,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330,
+              "y": 256,
+              "timestamp": 1772497901182,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330,
+              "y": 255.5,
+              "timestamp": 1772497901189,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329.5,
+              "y": 255,
+              "timestamp": 1772497901197,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329,
+              "y": 254.5,
+              "timestamp": 1772497901215,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329,
+              "y": 254,
+              "timestamp": 1772497901221,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 328.5,
+              "y": 254,
+              "timestamp": 1772497901246,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329,
+              "y": 254,
+              "timestamp": 1772497901609,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 329.5,
+              "y": 254,
+              "timestamp": 1772497901639,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 330,
+              "y": 254,
+              "timestamp": 1772497901673,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 331,
+              "y": 254,
+              "timestamp": 1772497901705,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 331.5,
+              "y": 253.5,
+              "timestamp": 1772497901712,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 332,
+              "y": 252.5,
+              "timestamp": 1772497901720,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333,
+              "y": 252,
+              "timestamp": 1772497901730,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 333.5,
+              "y": 252,
+              "timestamp": 1772497901736,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 335,
+              "y": 251.5,
+              "timestamp": 1772497901742,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 335.5,
+              "y": 250,
+              "timestamp": 1772497901750,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 337,
+              "y": 248.5,
+              "timestamp": 1772497901758,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 338.5,
+              "y": 247.5,
+              "timestamp": 1772497901766,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 340,
+              "y": 246,
+              "timestamp": 1772497901774,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 342.5,
+              "y": 242.5,
+              "timestamp": 1772497901782,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 344,
+              "y": 241,
+              "timestamp": 1772497901789,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 345.5,
+              "y": 238,
+              "timestamp": 1772497901797,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 349,
+              "y": 234.5,
+              "timestamp": 1772497901805,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 350.5,
+              "y": 231,
+              "timestamp": 1772497901811,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 352,
+              "y": 229,
+              "timestamp": 1772497901820,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 353.5,
+              "y": 226.5,
+              "timestamp": 1772497901833,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 355.5,
+              "y": 222.5,
+              "timestamp": 1772497901840,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 357,
+              "y": 221,
+              "timestamp": 1772497901845,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 358.5,
+              "y": 218.5,
+              "timestamp": 1772497901852,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360,
+              "y": 215.5,
+              "timestamp": 1772497901859,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362,
+              "y": 213,
+              "timestamp": 1772497901865,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362,
+              "y": 212,
+              "timestamp": 1772497901874,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364.5,
+              "y": 209.5,
+              "timestamp": 1772497901881,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 366,
+              "y": 207.5,
+              "timestamp": 1772497901890,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367,
+              "y": 204.5,
+              "timestamp": 1772497901898,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 368.5,
+              "y": 201,
+              "timestamp": 1772497901905,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 370,
+              "y": 197.5,
+              "timestamp": 1772497901914,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 371.5,
+              "y": 194.5,
+              "timestamp": 1772497901922,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 372.5,
+              "y": 192,
+              "timestamp": 1772497901929,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 374,
+              "y": 189,
+              "timestamp": 1772497901936,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 375,
+              "y": 187,
+              "timestamp": 1772497901943,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 376.5,
+              "y": 183.5,
+              "timestamp": 1772497901952,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378,
+              "y": 181.5,
+              "timestamp": 1772497901959,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378.5,
+              "y": 179,
+              "timestamp": 1772497901967,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 380,
+              "y": 177,
+              "timestamp": 1772497901975,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 381,
+              "y": 175.5,
+              "timestamp": 1772497901984,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 381.5,
+              "y": 174,
+              "timestamp": 1772497901991,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 382,
+              "y": 173,
+              "timestamp": 1772497902000,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 383,
+              "y": 171.5,
+              "timestamp": 1772497902007,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 383.5,
+              "y": 171,
+              "timestamp": 1772497902022,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 384,
+              "y": 169.5,
+              "timestamp": 1772497902027,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 384.5,
+              "y": 168.5,
+              "timestamp": 1772497902038,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 385.5,
+              "y": 167.5,
+              "timestamp": 1772497902046,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 386,
+              "y": 167,
+              "timestamp": 1772497902054,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 386.5,
+              "y": 166.5,
+              "timestamp": 1772497902062,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 387,
+              "y": 165.5,
+              "timestamp": 1772497902069,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 387.5,
+              "y": 164,
+              "timestamp": 1772497902076,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 388.5,
+              "y": 162.5,
+              "timestamp": 1772497902083,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 388.5,
+              "y": 162,
+              "timestamp": 1772497902092,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 389,
+              "y": 161.5,
+              "timestamp": 1772497902106,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 389.5,
+              "y": 161,
+              "timestamp": 1772497902112,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 390,
+              "y": 160.5,
+              "timestamp": 1772497902130,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 390,
+              "y": 159,
+              "timestamp": 1772497902140,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 390.5,
+              "y": 159,
+              "timestamp": 1772497902147,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 390.5,
+              "y": 158.5,
+              "timestamp": 1772497902170,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 391,
+              "y": 158.5,
+              "timestamp": 1772497902194,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 391,
+              "y": 158,
+              "timestamp": 1772497902218,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392,
+              "y": 158,
+              "timestamp": 1772497902240,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392,
+              "y": 157.5,
+              "timestamp": 1772497902257,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392.5,
+              "y": 157.5,
+              "timestamp": 1772497902264,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 393.5,
+              "y": 157.5,
+              "timestamp": 1772497902631,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394,
+              "y": 157.5,
+              "timestamp": 1772497902638,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 395.5,
+              "y": 158,
+              "timestamp": 1772497902646,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 397,
+              "y": 159,
+              "timestamp": 1772497902653,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 399,
+              "y": 160,
+              "timestamp": 1772497902659,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 400.5,
+              "y": 161,
+              "timestamp": 1772497902668,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404.5,
+              "y": 162.5,
+              "timestamp": 1772497902682,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 409,
+              "y": 164.5,
+              "timestamp": 1772497902688,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 413.5,
+              "y": 166,
+              "timestamp": 1772497902694,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418.5,
+              "y": 169,
+              "timestamp": 1772497902700,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 424,
+              "y": 171,
+              "timestamp": 1772497902707,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 426.5,
+              "y": 171.5,
+              "timestamp": 1772497902715,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 432.5,
+              "y": 173.5,
+              "timestamp": 1772497902722,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 438.5,
+              "y": 175.5,
+              "timestamp": 1772497902736,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 444,
+              "y": 177.5,
+              "timestamp": 1772497902742,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 446.5,
+              "y": 178,
+              "timestamp": 1772497902748,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 450.5,
+              "y": 179,
+              "timestamp": 1772497902754,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 455,
+              "y": 180,
+              "timestamp": 1772497902762,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 458,
+              "y": 180.5,
+              "timestamp": 1772497902770,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 463.5,
+              "y": 182.5,
+              "timestamp": 1772497902777,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 464,
+              "y": 183,
+              "timestamp": 1772497902786,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 468,
+              "y": 183.5,
+              "timestamp": 1772497902794,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 470,
+              "y": 185,
+              "timestamp": 1772497902802,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 473,
+              "y": 186,
+              "timestamp": 1772497902809,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 475.5,
+              "y": 186.5,
+              "timestamp": 1772497902816,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 477.5,
+              "y": 187.5,
+              "timestamp": 1772497902827,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 479,
+              "y": 187.5,
+              "timestamp": 1772497902833,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 483,
+              "y": 189,
+              "timestamp": 1772497902844,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 491.5,
+              "y": 191,
+              "timestamp": 1772497902856,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 495.5,
+              "y": 191,
+              "timestamp": 1772497902864,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 498.5,
+              "y": 192,
+              "timestamp": 1772497902870,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 500.5,
+              "y": 192,
+              "timestamp": 1772497902878,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 503.5,
+              "y": 193,
+              "timestamp": 1772497902887,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 506,
+              "y": 193.5,
+              "timestamp": 1772497902896,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 507,
+              "y": 193.5,
+              "timestamp": 1772497902902,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 509.5,
+              "y": 193.5,
+              "timestamp": 1772497902910,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 510.5,
+              "y": 194,
+              "timestamp": 1772497902918,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 513,
+              "y": 194,
+              "timestamp": 1772497902930,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 515,
+              "y": 195,
+              "timestamp": 1772497902936,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 518,
+              "y": 195.5,
+              "timestamp": 1772497902942,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 520,
+              "y": 195.5,
+              "timestamp": 1772497902949,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 523.5,
+              "y": 196.5,
+              "timestamp": 1772497902955,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 528,
+              "y": 198.5,
+              "timestamp": 1772497902964,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 530,
+              "y": 199,
+              "timestamp": 1772497902971,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 531.5,
+              "y": 199,
+              "timestamp": 1772497902980,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 532.5,
+              "y": 199.5,
+              "timestamp": 1772497902987,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 533,
+              "y": 199.5,
+              "timestamp": 1772497903004,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 534,
+              "y": 199.5,
+              "timestamp": 1772497903012,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 534.5,
+              "y": 200,
+              "timestamp": 1772497903018,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 535,
+              "y": 200,
+              "timestamp": 1772497903027,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 536,
+              "y": 200,
+              "timestamp": 1772497903034,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 537.5,
+              "y": 201,
+              "timestamp": 1772497903041,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 539,
+              "y": 201,
+              "timestamp": 1772497903050,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 540,
+              "y": 201,
+              "timestamp": 1772497903057,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 540.5,
+              "y": 201.5,
+              "timestamp": 1772497903066,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 541,
+              "y": 201.5,
+              "timestamp": 1772497903073,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 542,
+              "y": 201.5,
+              "timestamp": 1772497903088,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 542.5,
+              "y": 201.5,
+              "timestamp": 1772497903095,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 543,
+              "y": 201.5,
+              "timestamp": 1772497903120,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 543,
+              "y": 202,
+              "timestamp": 1772497903130,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 543,
+              "y": 202.5,
+              "timestamp": 1772497903347,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 543,
+              "y": 204.5,
+              "timestamp": 1772497903355,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 543,
+              "y": 206.5,
+              "timestamp": 1772497903362,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 542,
+              "y": 208,
+              "timestamp": 1772497903369,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 542,
+              "y": 210,
+              "timestamp": 1772497903378,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 542,
+              "y": 213,
+              "timestamp": 1772497903386,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 541.5,
+              "y": 216,
+              "timestamp": 1772497903394,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 540.5,
+              "y": 220.5,
+              "timestamp": 1772497903400,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 540.5,
+              "y": 223.5,
+              "timestamp": 1772497903408,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 539.5,
+              "y": 227.5,
+              "timestamp": 1772497903415,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 539,
+              "y": 232,
+              "timestamp": 1772497903427,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 538,
+              "y": 237.5,
+              "timestamp": 1772497903433,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 537,
+              "y": 242,
+              "timestamp": 1772497903439,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 536,
+              "y": 246.5,
+              "timestamp": 1772497903448,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 534.5,
+              "y": 254,
+              "timestamp": 1772497903463,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 534.5,
+              "y": 258,
+              "timestamp": 1772497903470,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 533.5,
+              "y": 261,
+              "timestamp": 1772497903477,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 533.5,
+              "y": 264,
+              "timestamp": 1772497903485,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 533,
+              "y": 267,
+              "timestamp": 1772497903493,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 533,
+              "y": 271,
+              "timestamp": 1772497903502,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 532,
+              "y": 274,
+              "timestamp": 1772497903510,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 532,
+              "y": 278.5,
+              "timestamp": 1772497903518,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 531.5,
+              "y": 282.5,
+              "timestamp": 1772497903524,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 530.5,
+              "y": 287,
+              "timestamp": 1772497903531,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 530.5,
+              "y": 292.5,
+              "timestamp": 1772497903540,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 529.5,
+              "y": 297,
+              "timestamp": 1772497903547,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 528.5,
+              "y": 301,
+              "timestamp": 1772497903555,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 528,
+              "y": 303.5,
+              "timestamp": 1772497903563,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 527,
+              "y": 308.5,
+              "timestamp": 1772497903571,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 527,
+              "y": 311.5,
+              "timestamp": 1772497903580,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 526.5,
+              "y": 314.5,
+              "timestamp": 1772497903587,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 525.5,
+              "y": 321.5,
+              "timestamp": 1772497903595,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 525.5,
+              "y": 325.5,
+              "timestamp": 1772497903602,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 524.5,
+              "y": 328.5,
+              "timestamp": 1772497903609,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 524,
+              "y": 332,
+              "timestamp": 1772497903618,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 524,
+              "y": 335,
+              "timestamp": 1772497903627,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 523,
+              "y": 339,
+              "timestamp": 1772497903634,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 522.5,
+              "y": 341,
+              "timestamp": 1772497903641,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 521.5,
+              "y": 343.5,
+              "timestamp": 1772497903650,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 521.5,
+              "y": 346.5,
+              "timestamp": 1772497903658,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 521,
+              "y": 348.5,
+              "timestamp": 1772497903666,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 521,
+              "y": 350.5,
+              "timestamp": 1772497903671,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 521,
+              "y": 351,
+              "timestamp": 1772497903679,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 520,
+              "y": 352.5,
+              "timestamp": 1772497903693,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 520,
+              "y": 353.5,
+              "timestamp": 1772497903699,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 520,
+              "y": 354.5,
+              "timestamp": 1772497903705,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 520,
+              "y": 355.5,
+              "timestamp": 1772497903712,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519.5,
+              "y": 357,
+              "timestamp": 1772497903720,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519.5,
+              "y": 357.5,
+              "timestamp": 1772497903730,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519.5,
+              "y": 358.5,
+              "timestamp": 1772497903736,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519.5,
+              "y": 359,
+              "timestamp": 1772497903742,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519.5,
+              "y": 360.5,
+              "timestamp": 1772497903750,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 362,
+              "timestamp": 1772497903758,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 363,
+              "timestamp": 1772497903766,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 364.5,
+              "timestamp": 1772497903774,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 365.5,
+              "timestamp": 1772497903782,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 367,
+              "timestamp": 1772497903789,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 368,
+              "timestamp": 1772497903798,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 369.5,
+              "timestamp": 1772497903814,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 370.5,
+              "timestamp": 1772497903820,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 372,
+              "timestamp": 1772497903833,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 372.5,
+              "timestamp": 1772497903839,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 373,
+              "timestamp": 1772497903845,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 373.5,
+              "timestamp": 1772497903852,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 519,
+              "y": 374.5,
+              "timestamp": 1772497903869,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 518.5,
+              "y": 374.5,
+              "timestamp": 1772497903962,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 517.5,
+              "y": 374.5,
+              "timestamp": 1772497904033,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 517,
+              "y": 374.5,
+              "timestamp": 1772497904086,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 516.5,
+              "y": 374.5,
+              "timestamp": 1772497904117,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 515.5,
+              "y": 374.5,
+              "timestamp": 1772497904124,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 514,
+              "y": 374.5,
+              "timestamp": 1772497904131,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 513,
+              "y": 374.5,
+              "timestamp": 1772497904139,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 511.5,
+              "y": 374.5,
+              "timestamp": 1772497904148,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 510,
+              "y": 374.5,
+              "timestamp": 1772497904155,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 508,
+              "y": 374.5,
+              "timestamp": 1772497904164,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 507.5,
+              "y": 374.5,
+              "timestamp": 1772497904171,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 505.5,
+              "y": 374.5,
+              "timestamp": 1772497904179,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 504.5,
+              "y": 374.5,
+              "timestamp": 1772497904185,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 503,
+              "y": 374.5,
+              "timestamp": 1772497904194,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 501,
+              "y": 374.5,
+              "timestamp": 1772497904201,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 500.5,
+              "y": 374.5,
+              "timestamp": 1772497904209,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 498.5,
+              "y": 374.5,
+              "timestamp": 1772497904218,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 498,
+              "y": 375,
+              "timestamp": 1772497904227,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 496,
+              "y": 375,
+              "timestamp": 1772497904234,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 494.5,
+              "y": 375,
+              "timestamp": 1772497904241,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 492.5,
+              "y": 375,
+              "timestamp": 1772497904247,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 490.5,
+              "y": 375,
+              "timestamp": 1772497904256,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 488,
+              "y": 375,
+              "timestamp": 1772497904264,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 486,
+              "y": 375,
+              "timestamp": 1772497904272,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 483,
+              "y": 375,
+              "timestamp": 1772497904279,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 481.5,
+              "y": 374.5,
+              "timestamp": 1772497904293,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 479.5,
+              "y": 374.5,
+              "timestamp": 1772497904299,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 477.5,
+              "y": 374.5,
+              "timestamp": 1772497904305,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 476,
+              "y": 374,
+              "timestamp": 1772497904312,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 474,
+              "y": 374,
+              "timestamp": 1772497904318,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 472.5,
+              "y": 374,
+              "timestamp": 1772497904330,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 470.5,
+              "y": 373,
+              "timestamp": 1772497904336,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 469,
+              "y": 372.5,
+              "timestamp": 1772497904342,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 467,
+              "y": 372,
+              "timestamp": 1772497904350,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 464.5,
+              "y": 370.5,
+              "timestamp": 1772497904357,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 463.5,
+              "y": 370.5,
+              "timestamp": 1772497904366,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 461,
+              "y": 369.5,
+              "timestamp": 1772497904374,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 460.5,
+              "y": 369,
+              "timestamp": 1772497904382,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 458.5,
+              "y": 368.5,
+              "timestamp": 1772497904389,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 457.5,
+              "y": 367.5,
+              "timestamp": 1772497904396,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 455,
+              "y": 366,
+              "timestamp": 1772497904404,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 452,
+              "y": 364.5,
+              "timestamp": 1772497904412,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 449.5,
+              "y": 364,
+              "timestamp": 1772497904420,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 449,
+              "y": 363.5,
+              "timestamp": 1772497904433,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 447,
+              "y": 362.5,
+              "timestamp": 1772497904439,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 445,
+              "y": 362,
+              "timestamp": 1772497904445,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 443.5,
+              "y": 361,
+              "timestamp": 1772497904451,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 443,
+              "y": 361,
+              "timestamp": 1772497904459,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 442,
+              "y": 360.5,
+              "timestamp": 1772497904468,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 440.5,
+              "y": 360,
+              "timestamp": 1772497904475,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 439,
+              "y": 359,
+              "timestamp": 1772497904482,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 438,
+              "y": 359,
+              "timestamp": 1772497904490,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 435.5,
+              "y": 358.5,
+              "timestamp": 1772497904498,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 434,
+              "y": 358,
+              "timestamp": 1772497904511,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 432,
+              "y": 358,
+              "timestamp": 1772497904517,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 429,
+              "y": 357,
+              "timestamp": 1772497904523,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 427,
+              "y": 356.5,
+              "timestamp": 1772497904530,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 424.5,
+              "y": 356.5,
+              "timestamp": 1772497904536,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 422.5,
+              "y": 355.5,
+              "timestamp": 1772497904543,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 421,
+              "y": 355.5,
+              "timestamp": 1772497904553,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 420,
+              "y": 355.5,
+              "timestamp": 1772497904560,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 418.5,
+              "y": 355.5,
+              "timestamp": 1772497904567,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 417.5,
+              "y": 355,
+              "timestamp": 1772497904575,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 416,
+              "y": 355,
+              "timestamp": 1772497904584,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 415.5,
+              "y": 355,
+              "timestamp": 1772497904592,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 414,
+              "y": 355,
+              "timestamp": 1772497904597,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 413.5,
+              "y": 355,
+              "timestamp": 1772497904606,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 412.5,
+              "y": 354.5,
+              "timestamp": 1772497904613,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 412,
+              "y": 354.5,
+              "timestamp": 1772497904626,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 411.5,
+              "y": 354.5,
+              "timestamp": 1772497904632,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 410.5,
+              "y": 354.5,
+              "timestamp": 1772497904651,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 410,
+              "y": 354.5,
+              "timestamp": 1772497904657,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 409.5,
+              "y": 354.5,
+              "timestamp": 1772497904675,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 409,
+              "y": 354.5,
+              "timestamp": 1772497904749,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 408.5,
+              "y": 354.5,
+              "timestamp": 1772497904766,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 408,
+              "y": 354.5,
+              "timestamp": 1772497904778,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 408,
+              "y": 353.5,
+              "timestamp": 1772497904786,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 407.5,
+              "y": 353.5,
+              "timestamp": 1772497904810,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 406.5,
+              "y": 353.5,
+              "timestamp": 1772497904833,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 406,
+              "y": 353.5,
+              "timestamp": 1772497904851,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 404,
+              "y": 353.5,
+              "timestamp": 1772497904870,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 401,
+              "y": 353.5,
+              "timestamp": 1772497904881,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 400.5,
+              "y": 353.5,
+              "timestamp": 1772497904888,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 400,
+              "y": 353.5,
+              "timestamp": 1772497904905,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 399.5,
+              "y": 353,
+              "timestamp": 1772497904916,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 399,
+              "y": 353,
+              "timestamp": 1772497904936,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 398.5,
+              "y": 353,
+              "timestamp": 1772497904954,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 398.5,
+              "y": 352,
+              "timestamp": 1772497905120,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 397.5,
+              "y": 350.5,
+              "timestamp": 1772497905129,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 397,
+              "y": 349,
+              "timestamp": 1772497905135,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394.5,
+              "y": 346,
+              "timestamp": 1772497905144,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 394,
+              "y": 345.5,
+              "timestamp": 1772497905151,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 392,
+              "y": 342.5,
+              "timestamp": 1772497905159,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 389,
+              "y": 339,
+              "timestamp": 1772497905167,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 384,
+              "y": 333,
+              "timestamp": 1772497905176,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 382.5,
+              "y": 330.5,
+              "timestamp": 1772497905183,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 378,
+              "y": 325,
+              "timestamp": 1772497905190,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 374.5,
+              "y": 321.5,
+              "timestamp": 1772497905197,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 372,
+              "y": 318,
+              "timestamp": 1772497905205,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 369,
+              "y": 314.5,
+              "timestamp": 1772497905214,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 367.5,
+              "y": 312.5,
+              "timestamp": 1772497905226,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 365.5,
+              "y": 310,
+              "timestamp": 1772497905232,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 364,
+              "y": 308,
+              "timestamp": 1772497905238,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 362.5,
+              "y": 304.5,
+              "timestamp": 1772497905246,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 361,
+              "y": 303,
+              "timestamp": 1772497905253,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 360,
+              "y": 301,
+              "timestamp": 1772497905259,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 359,
+              "y": 299.5,
+              "timestamp": 1772497905267,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 357.5,
+              "y": 297.5,
+              "timestamp": 1772497905275,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 356,
+              "y": 295,
+              "timestamp": 1772497905284,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 354,
+              "y": 292,
+              "timestamp": 1772497905292,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 353.5,
+              "y": 291.5,
+              "timestamp": 1772497905299,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 353,
+              "y": 289.5,
+              "timestamp": 1772497905307,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 352,
+              "y": 287,
+              "timestamp": 1772497905315,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 350.5,
+              "y": 285,
+              "timestamp": 1772497905322,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 350,
+              "y": 283.5,
+              "timestamp": 1772497905330,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 349.5,
+              "y": 283,
+              "timestamp": 1772497905338,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 349,
+              "y": 282.5,
+              "timestamp": 1772497905345,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 348.5,
+              "y": 281,
+              "timestamp": 1772497905353,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 348.5,
+              "y": 280.5,
+              "timestamp": 1772497905362,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347.5,
+              "y": 280,
+              "timestamp": 1772497905369,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347.5,
+              "y": 279.5,
+              "timestamp": 1772497905378,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347,
+              "y": 279,
+              "timestamp": 1772497905385,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 347,
+              "y": 278.5,
+              "timestamp": 1772497905392,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346.5,
+              "y": 278,
+              "timestamp": 1772497905408,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346.5,
+              "y": 277,
+              "timestamp": 1772497905426,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346.5,
+              "y": 276.5,
+              "timestamp": 1772497905448,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346,
+              "y": 276.5,
+              "timestamp": 1772497905463,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            },
+            {
+              "x": 346,
+              "y": 276,
+              "timestamp": 1772497905469,
+              "pressure": 0.5,
+              "tiltX": 0,
+              "tiltY": 0
+            }
+          ],
+          "inputType": "mouse",
+          "pointerType": "mouse",
+          "startTime": "2026-03-03T00:31:40.739Z",
+          "endTime": "2026-03-03T00:31:45.759Z",
+          "color": "#000000",
+          "size": 12,
+          "opacity": 1,
+          "tool": "pen",
+          "interStrokeGap": 935,
+          "duration": 4730,
+          "velocity": [
+            0.003816793893129771,
+            0.08838834764831845,
+            0.17568209223157663,
+            0.125,
+            0.7615773105863909,
+            0.11785113019775793,
+            0.23570226039551587,
+            0.07142857142857142,
+            0.17568209223157663,
+            0.08838834764831845,
+            0.3030457633656632,
+            0.08838834764831845,
+            0.13975424859373686,
+            0.05050762722761054,
+            0.3004626062886658,
+            0.03928371006591931,
+            0.08838834764831845,
+            0.02,
+            0.013157894736842105,
+            0.025,
+            0.08333333333333333,
+            0.08333333333333333,
+            0.07142857142857142,
+            0.0642824346533225,
+            0.045454545454545456,
+            0.2,
+            0.029411764705882353,
+            0.0625,
+            0.07142857142857142,
+            0.08838834764831845,
+            0.03928371006591931,
+            0.08333333333333333,
+            0.02,
+            0.0013774104683195593,
+            0.016666666666666666,
+            0.014705882352941176,
+            0.03125,
+            0.10101525445522108,
+            0.13975424859373686,
+            0.1118033988749895,
+            0.08333333333333333,
+            0.26352313834736496,
+            0.19764235376052372,
+            0.2651650429449553,
+            0.22534695471649932,
+            0.2651650429449553,
+            0.5376453291901642,
+            0.3030457633656632,
+            0.4192627457812106,
+            0.6187184335382291,
+            0.6346477588219924,
+            0.2777777777777778,
+            0.22426738057097312,
+            0.6388765649999399,
+            0.42426406871192845,
+            0.4164965639175215,
+            0.47915742374995496,
+            0.5335936864527374,
+            0.1111111111111111,
+            0.5050762722761054,
+            0.2777777777777778,
+            0.39528470752104744,
+            0.5439837932759934,
+            0.42309850588132825,
+            0.4192627457812106,
+            0.384654629081036,
+            0.47915742374995496,
+            0.31943828249996997,
+            0.42309850588132825,
+            0.35714285714285715,
+            0.31868871959954903,
+            0.3125,
+            0.20030840419244383,
+            0.22587697572631282,
+            0.12422599874998833,
+            0.25753937681885636,
+            0.047140452079103175,
+            0.31622776601683794,
+            0.10163945352271772,
+            0.1767766952966369,
+            0.08838834764831845,
+            0.08838834764831845,
+            0.15971914124998499,
+            0.22587697572631282,
+            0.25753937681885636,
+            0.05555555555555555,
+            0.05050762722761054,
+            0.11785113019775793,
+            0.03928371006591931,
+            0.15,
+            0.07142857142857142,
+            0.021739130434782608,
+            0.020833333333333332,
+            0.020833333333333332,
+            0.045454545454545456,
+            0.029411764705882353,
+            0.07142857142857142,
+            0.0027247956403269754,
+            0.07142857142857142,
+            0.19764235376052372,
+            0.25753937681885636,
+            0.37267799624996495,
+            0.20030840419244383,
+            0.3051429909041975,
+            0.8207381501496753,
+            0.7905694150420949,
+            0.9718253158075502,
+            0.8360499936228304,
+            0.31868871959954903,
+            0.9035079029052513,
+            0.45175395145262565,
+            0.9753916592266355,
+            0.4249182927993987,
+            0.6871842709362768,
+            0.5762215285808054,
+            0.3801726581436387,
+            0.8360499936228304,
+            0.07856742013183862,
+            0.5038911092686593,
+            0.3125,
+            0.45175395145262565,
+            0.36421567954234174,
+            0.20327890704543544,
+            0.25,
+            0.3883638066053423,
+            0.7276770498572075,
+            0.5,
+            0.5270462766947299,
+            0.25,
+            0.35136418446315326,
+            0.28327886186626583,
+            0.16666666666666666,
+            0.3125,
+            0.13975424859373686,
+            0.20833333333333334,
+            0.37267799624996495,
+            0.5068968775248516,
+            0.2857142857142857,
+            0.6066758241067098,
+            0.5471587667664503,
+            0.29450754468697576,
+            0.16666666666666666,
+            0.15971914124998499,
+            0.029411764705882353,
+            0.125,
+            0.11785113019775793,
+            0.05555555555555555,
+            0.14285714285714285,
+            0.25753937681885636,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.07856742013183862,
+            0.07142857142857142,
+            0.06666666666666667,
+            0.07142857142857142,
+            0.02,
+            0.05,
+            0.002304147465437788,
+            0.25,
+            0.2857142857142857,
+            0.25753937681885636,
+            0.2222222222222222,
+            0.375,
+            0.3801726581436387,
+            0.768295371441074,
+            0.375,
+            0.5890150893739515,
+            0.37730771408905905,
+            0.9316949906249125,
+            0.768295371441074,
+            0.5121969142940492,
+            0.5099019513592785,
+            0.5714285714285714,
+            0.45175395145262565,
+            0.375,
+            0.3801726581436387,
+            0.4444444444444444,
+            0.39528470752104744,
+            0.5625,
+            0.6718548123582124,
+            0.6585388898066348,
+            0.6111111111111112,
+            0.6585388898066348,
+            0.5153882032022076,
+            0.31868871959954903,
+            0.6373774391990981,
+            0.3333333333333333,
+            0.4344830378784442,
+            0.8838834764831844,
+            0.5714285714285714,
+            0.45175395145262565,
+            0.3928371006591931,
+            0.3333333333333333,
+            0.5890150893739515,
+            0.29450754468697576,
+            0.29917582261858355,
+            0.375,
+            0.2576941016011038,
+            0.4,
+            0.0625,
+            0.12876968840942818,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.19764235376052372,
+            0.05,
+            0.16666666666666666,
+            0.08333333333333333,
+            0.1875,
+            0.19764235376052372,
+            0.125,
+            0.1875,
+            0.125,
+            0.21428571428571427,
+            0.1111111111111111,
+            0.09375,
+            0.16666666666666666,
+            0.11538461538461539,
+            0.08333333333333333,
+            0.08333333333333333,
+            0.07142857142857142,
+            0.058823529411764705,
+            0.005376344086021506,
+            0.014084507042253521,
+            0.009433962264150943,
+            0.016129032258064516,
+            0.14285714285714285,
+            0.21428571428571427,
+            0.125,
+            0.16666666666666666,
+            0.21428571428571427,
+            0.2222222222222222,
+            0.07142857142857142,
+            0.25,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.2857142857142857,
+            0.0625,
+            0.2222222222222222,
+            0.07856742013183862,
+            0.2857142857142857,
+            0.21428571428571427,
+            0.3333333333333333,
+            0.2222222222222222,
+            0.3125,
+            0.25,
+            0.42857142857142855,
+            0.11293848786315641,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.22587697572631282,
+            0.3333333333333333,
+            0.125,
+            0.37267799624996495,
+            0.26352313834736496,
+            0.2576941016011038,
+            0.4164965639175215,
+            0.1111111111111111,
+            0.3365728004459065,
+            0.08838834764831845,
+            0.29450754468697576,
+            0.20203050891044216,
+            0.3644344934278313,
+            0.4192627457812106,
+            0.31868871959954903,
+            0.05439282932204212,
+            0.37267799624996495,
+            0.3435921354681384,
+            0.3004626062886658,
+            0.0625,
+            0.12422599874998833,
+            0.22587697572631282,
+            0.25753937681885636,
+            0.125,
+            0.31868871959954903,
+            0.12162606385262999,
+            0.3333333333333333,
+            0.5270462766947299,
+            0.29450754468697576,
+            0.4166666666666667,
+            0.31943828249996997,
+            0.15,
+            0.14285714285714285,
+            0.21428571428571427,
+            0.13975424859373686,
+            0.16666666666666666,
+            0.0625,
+            0.3,
+            0.05555555555555555,
+            0.15971914124998499,
+            0.038461538461538464,
+            0.08333333333333333,
+            0.05263157894736842,
+            0.08333333333333333,
+            0.027777777777777776,
+            0.006756756756756757,
+            0.029411764705882353,
+            0.041666666666666664,
+            0.125,
+            0.020833333333333332,
+            0.043478260869565216,
+            0.027777777777777776,
+            0.10526315789473684,
+            0.2727272727272727,
+            0.07142857142857142,
+            0.029411764705882353,
+            0.0642824346533225,
+            0.025,
+            0.027777777777777776,
+            0.006024096385542169,
+            0.20030840419244383,
+            0.26352313834736496,
+            0.4339027597725919,
+            0.10101525445522108,
+            0.45069390943299864,
+            0.5762215285808054,
+            0.8678055195451838,
+            0.4164965639175215,
+            1.0151907431108496,
+            0.7071067811865476,
+            0.5376453291901642,
+            0.5121969142940492,
+            0.20833333333333334,
+            0.5335936864527374,
+            0.4166666666666667,
+            0.4759858191164943,
+            0.3030457633656632,
+            0.37267799624996495,
+            0.22534695471649932,
+            0.3125,
+            0.32394177193585005,
+            0.45069390943299864,
+            0.10101525445522108,
+            0.2576941016011038,
+            0.3365728004459065,
+            0.35714285714285715,
+            0.19764235376052372,
+            0.08838834764831845,
+            0.10101525445522108,
+            0.19764235376052372,
+            0.05555555555555555,
+            0.15971914124998499,
+            0.05555555555555555,
+            0.10101525445522108,
+            0.07142857142857142,
+            0.04419417382415922,
+            0.05555555555555555,
+            0.022727272727272728,
+            0.03333333333333333,
+            0.08333333333333333
+          ],
+          "averageVelocity": 0.25912203450285953,
+          "averagePressure": 0.5
+        }
+      ],
+      "startTime": null,
+      "endTime": "2026-03-03T00:31:49.527Z"
+    }
+  }
+}
