@@ -5,4 +5,6 @@ export default defineConfig({
   base: '/DrawingModalitySprint3/',
   plugins: [react()],
   server: { fs: { allow: ['..'] } },
+  // The recorded strokes (about 470 KB of JSON) ship inside the bundle on purpose: one request, works offline.
+  build: { chunkSizeWarningLimit: 800 },
 });
