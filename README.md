@@ -5,6 +5,10 @@
 **Date:** March 1, 2026  
 **Documentation:** See [COMPREHENSIVE_WORKLOG.md](COMPREHENSIVE_WORKLOG.md) for detailed technical documentation
 
+**Live dashboard:** https://jesunahmadushno.github.io/DrawingModalitySprint3/
+
+> **Reproducibility note.** The repo holds 15 real recorded sessions (plus 6 test and verify runs) in `Records/`, not the 35 described in `RESEARCH_PAPER.md`. Section 4 of the paper (aggregate wellness table, distribution, correlations, per-task averages) cannot be reproduced from the committed data; the dashboard's claims check shows each comparison. The feature extraction does reproduce: `cd site && npm run build` checks a JavaScript port against `dynamic_feature_summary.csv` and the saved reports. The stress, anxiety, burnout and cognitive-load scores use hand-picked weights with no ground-truth labels and are not clinically validated. Grading and open gaps: [docs/research-review.md](docs/research-review.md).
+
 ---
 
 ## 📋 Project Overview
